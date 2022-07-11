@@ -174,10 +174,9 @@
         </span>
         </h4>
         </div>
-        <!-- rainbow -->
-        <section data-scroll data-scroll-direction="horizontal"
-        data-scroll-speed="6" class="h-screen right-0 items-center">
-          <svg  viewBox="0 0 340 851" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-304 h-screen">
+        <!-- rainbow2 -->
+        <section data-scroll class="h-screen right-0 items-center">
+          <svg  viewBox="0 0 340 851" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-screen h-screen">
           <path d="M289.5 -64V520.5C289.5 540.382 273.382 556.5 253.5 556.5H39C19.1178 556.5 3 572.618 3 592.5V983" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
           <path d="M308.5 -48.5V536C308.5 555.882 292.382 572 272.5 572H58C38.1178 572 22 588.118 22 608V998.5" stroke="#008018" stroke-width="5" stroke-linecap="round"/>
           <path d="M327.5 -32.5V552C327.5 571.882 311.382 588 291.5 588H77C57.1178 588 41 604.118 41 624V1014.5" stroke="#FFA52C" stroke-width="5" stroke-linecap="round"/>
@@ -251,8 +250,8 @@
             </svg>
           </section>
         <div class="relative">
-        <img class="absolute" src="src/nateeleft.png"/>
-        <img class="absolute right-0"src="src/nateeright.png"/>
+        <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="5" class="absolute" src="src/nateeleft.png"/>
+        <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-5"class="absolute right-0"src="src/nateeright.png"/>
         </div>
         <p  data-scroll class="text-white leading-normal px-5 pb-6">
           นที ธีระโรจนพงษ์ และอรรถพล จันทร์<br>ไปแจ้งจดทะเบียนสมรส แต่ถูกปฏิเสธ<br>
@@ -264,17 +263,19 @@
       <!-- 2556 -->
       <div data-scroll-section class="bg-wgrey2 px-5 py-40">
         <h2 data-scroll class="font-bold text-white text-right text-7xl">รัฐประหาร<br>2557</h2>
-        <img class="absolute" src="src/lungtoo.png"/>
-        <img class="absolute" src="src/พรบคู่ชีวิต.jpg"/>
+        <img data-scroll class="absolute" src="src/lungtoo.png"/>
+        <img data-scroll class="absolute right-0" src="src/พรบคู่ชีวิต.jpg"/>
         <p data-scroll class="text-white leading-normal">2556
           ร่าง พ.ร.บ.คู่ชีวิต ร่างที่หนึ่งเกิดขึ้น ก่อนจะเผชิญรัฐประหาร
           ในปี 2557 ทำให้ไม่ถูกบรรจุวาระในสภา</p>
       </div>
       <!-- 2563 -->
       <div data-scroll-section class="bg-wgrey3 py-40">
-        <img src="src/lefthand.png"/>
-        <img src="src/แก้ไขปพพ.jpg"/>
-        <img src="src/righthand.png"/>
+        <div class="relative">
+        <img data-scroll class="absolute" src="src/lefthand.png"/>
+        <img data-scroll class="absolute top-20 left-40" src="src/แก้ไขปพพ.jpg"/>
+        <img data-scroll class="absolute right-0 " src="src/righthand.png"/>
+        </div>
         <p data-scroll class="text-white leading-normal px-5 ">มิ.ย. 2563
           พรรคก้าวไกลได้ยื่นเสนอร่าง พ.ร.บ. แก้ไข ป.พ.พ. ต่อประธานสภาผู้แทนราษฎร</p>
       </div>
