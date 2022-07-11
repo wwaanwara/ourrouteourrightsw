@@ -132,16 +132,17 @@
         </section>
       </div>
       <!-- start -->
-      <div id="start" data-scroll-section data-scroll-call="start" data-scroll-id="start"  class="h-screen bg-wgrey1 px-5 items-center ">
+      <div id="start" data-scroll-section data-scroll-call="start" data-scroll-id="start"  class="h-screen bg-wgrey1 px-5 flex items-center relative ">
+        <div class="absolute">
         <h2
           data-scroll
           data-scroll-direction="horizontal"
           data-scroll-speed="6"
-          class="font-bold text-3xl leading-normal "
+          class="font-bold text-3xl text-white leading-normal "
         >
           เส้นทางของพวกเรา<br>เริ่มต้นขึ้นเมื่อปี
         </h2>
-        <h4 data-scroll class="font-bold text-9xl pt-4 inline-block">
+        <h4 data-scroll class="font-bold text-white text-8xl pt-4 inline-block">
           <span
             class=" inline-block"
             data-scroll
@@ -171,6 +172,8 @@
             >2</span
           >
         </span>
+        </h4>
+        </div>
         <!-- rainbow -->
         <section data-scroll-section class="h-screen right-0">
           <svg width="340" height="851" viewBox="0 0 340 851" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -183,19 +186,19 @@
           </svg></section>
       </div>
       <!-- 2552 -->
-      <div data-scroll-section class="bg-wgrey1 px-5 py-20">
-        <h2 data-scroll class="font-bold text-5xl text-right">'เสาร์ซาวเอ็ด'</h2>
-        <p data-scroll class="text-xl text-right pt-5">21 ก.พ. 2552</p>
-        <div>
-        <img src="src/trucks.png"/>
-        <img src="src/wastefood.png"/>
-        <img src="src/Young_Pride_Club.png"/>
-        <div>
-        <p data-scroll class="">เกิดเหตุการณ์ความรุนแรงต่อกลุ่ม LGBTQ+<br> ครั้งแรกในไทย
+      <div data-scroll-section class="bg-wgrey1 py-20">
+        <h2 data-scroll class="font-bold text-white text-5xl text-right px-5">'เสาร์ซาวเอ็ด'</h2>
+        <p data-scroll class="text-xl text-white text-right px-5 pt-5">21 ก.พ. 2552</p>
+        <div class="relative items-center">
+          <img class="absolute right-0" src="src/Young_Pride_Club.png"/>
+          <img class="absolute -left-20" src="src/trucks.png"/>
+          <img class="absolute" src="src/wastefood.png"/>
+        </div>
+        <p data-scroll class="text-white text-base leading-normal px-5 pt-80">เกิดเหตุการณ์ความรุนแรงต่อกลุ่ม LGBTQ+<br> ครั้งแรกในไทย
           เพื่อยับยั้งการจัดงาน Parade<br> 
           Gay Pride ในจังหวัดเชียงใหม่</p>
             <!-- rainbow4 -->
-        <!-- <section data-scroll-section class="h-screen right-0">
+        <!-- <section data-scroll class="h-screen right-0">
           <svg width="178" height="228" viewBox="0 0 178 228" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M207 5.5C208.381 5.5 209.5 4.38071 209.5 3C209.5 1.61929 208.381 0.5 207 0.5V5.5ZM207 0.5H76.25V5.5H207V0.5ZM41.75 35H31V40H41.75V35ZM0.5 65.5V78H5.5V65.5H0.5ZM43.5 121H88.25V116H43.5V121ZM154.75 187.5H197V182.5H154.75V187.5ZM119 151.75C119 171.494 135.006 187.5 154.75 187.5V182.5C137.767 182.5 124 168.733 124 151.75H119ZM88.25 121C105.233 121 119 134.767 119 151.75H124C124 132.006 107.994 116 88.25 116V121ZM0.5 78C0.5 101.748 19.7518 121 43.5 121V116C22.5132 116 5.5 98.9868 5.5 78H0.5ZM31 35C14.1553 35 0.5 48.6553 0.5 65.5H5.5C5.5 51.4167 16.9167 40 31 40V35ZM56.5 20.25C56.5 28.3962 49.8962 35 41.75 35V40C52.6576 40 61.5 31.1576 61.5 20.25H56.5ZM76.25 0.5C65.3424 0.5 56.5 9.34238 56.5 20.25H61.5C61.5 12.1038 68.1038 5.5 76.25 5.5V0.5Z" fill="#86007D"/>
             <path d="M212 13.5C213.381 13.5 214.5 12.3807 214.5 11C214.5 9.61929 213.381 8.5 212 8.5V13.5ZM212 8.5H81.25V13.5H212V8.5ZM46.75 43H36V48H46.75V43ZM5.5 73.5V86H10.5V73.5H5.5ZM48.5 129H93.25V124H48.5V129ZM159.75 195.5H202V190.5H159.75V195.5ZM124 159.75C124 179.494 140.006 195.5 159.75 195.5V190.5C142.767 190.5 129 176.733 129 159.75H124ZM93.25 129C110.233 129 124 142.767 124 159.75H129C129 140.006 112.994 124 93.25 124V129ZM5.5 86C5.5 109.748 24.7518 129 48.5 129V124C27.5132 124 10.5 106.987 10.5 86H5.5ZM36 43C19.1553 43 5.5 56.6553 5.5 73.5H10.5C10.5 59.4167 21.9167 48 36 48V43ZM61.5 28.25C61.5 36.3962 54.8962 43 46.75 43V48C57.6576 48 66.5 39.1576 66.5 28.25H61.5ZM81.25 8.5C70.3424 8.5 61.5 17.3424 61.5 28.25H66.5C66.5 20.1038 73.1038 13.5 81.25 13.5V8.5Z" fill="#0000F9"/>
@@ -205,17 +208,22 @@
             <path d="M232 45.5C233.381 45.5 234.5 44.3807 234.5 43C234.5 41.6193 233.381 40.5 232 40.5V45.5ZM232 40.5H101.25V45.5H232V40.5ZM66.75 75H56V80H66.75V75ZM25.5 105.5V118H30.5V105.5H25.5ZM68.5 161H113.25V156H68.5V161ZM179.75 227.5H222V222.5H179.75V227.5ZM144 191.75C144 211.494 160.006 227.5 179.75 227.5V222.5C162.767 222.5 149 208.733 149 191.75H144ZM113.25 161C130.233 161 144 174.767 144 191.75H149C149 172.006 132.994 156 113.25 156V161ZM25.5 118C25.5 141.748 44.7518 161 68.5 161V156C47.5132 156 30.5 138.987 30.5 118H25.5ZM56 75C39.1553 75 25.5 88.6553 25.5 105.5H30.5C30.5 91.4167 41.9167 80 56 80V75ZM81.5 60.25C81.5 68.3962 74.8962 75 66.75 75V80C77.6576 80 86.5 71.1576 86.5 60.25H81.5ZM101.25 40.5C90.3424 40.5 81.5 49.3424 81.5 60.25H86.5C86.5 52.1038 93.1038 45.5 101.25 45.5V40.5Z" fill="#FF0018"/>
             </svg>
           </section> -->
-        <h2 data-scroll class="text-3xl">เสาร์ซาวเอ็ด</h2>
-        <p data-scroll class="items-center">ได้กลายเป็นจุดเริ่มต้นและแรงผลักดัน<br>ให้นักเคลื่อนไหวด้านสิทธิฯ ในไทย<br>กำหนดให้วันที่ 21 เดือนกุมภาพันธ์<br>ของทุกปี เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ</p>
+        <h2 data-scroll class="text-3xl text-white px-5 pt-6">เสาร์ซาวเอ็ด</h2>
+        <p data-scroll class="text-white leading-normal px-5 pt-6 justify-center">ได้กลายเป็นจุดเริ่มต้นและแรงผลักดัน<br>ให้นักเคลื่อนไหวด้านสิทธิฯ ในไทย<br>กำหนดให้วันที่ 21 เดือนกุมภาพันธ์<br>ของทุกปี เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ</p>
       </div>
       <!-- เกย์นที -->
       <div data-scroll-section class="bg-wgrey2 px-5 py-20">
-        <h2 data-scroll class="font-bold text-3xl">การเคลื่อนไหวเพื่อ<br>สมรสเท่าเทียม<br>ครั้งแรกในไทย</h2>
-        <h3 data-scroll class="font-bold text-wred text-7xl">1</h3>
-        <h4 data-scroll class="font-bold text-wred text-2xl">st</h4>
-        <h2>'เกย์นที'</h2>
-        <img src="src/nateeleft.png"/>
-        <img src="src/nateeright.png"/>
+        <div class="flex relative items-end">
+        <h2 data-scroll class="font-bold text-wgrey4 text-3xl leading-normal">การเคลื่อนไหวเพื่อ<br>สมรสเท่าเทียม<br>ครั้งแรกในไทย</h2>
+        <div data-scroll class="flex relative bottom-0 ">
+        <h3 data-scroll class="font-bold text-wred text-9xl">1</h3>
+        <h4 data-scroll class="font-bold text-wred text-3xl">st</h4>
+        </div>
+        </div>
+        <h2 data-scroll class="text-white font-bold text-7xl">'เกย์นที'</h2>
+        <div class="relative">
+        <img class="absolute" src="src/nateeleft.png"/>
+        <img class="absolute right-0"src="src/nateeright.png"/>
         <p  data-scroll class=" leading-normal pb-6">
           นที ธีระโรจนพงษ์ และอรรถพล จันทร์<br>ไปแจ้งจดทะเบียนสมรส แต่ถูกปฏิเสธ<br>
           จึงร้องเรียนไปยังหน่วยงานรัฐที่เกี่ยว<br>
@@ -225,7 +233,7 @@
       </div>
       <!-- 2556 -->
       <div data-scroll-section class="bg-wgrey2 px-5 py-40">
-        <h2 data-scroll class="font-bold text-right text-7xl">รัฐประหาร<br>2557</h2>
+        <h2 data-scroll class="font-bold text-white text-right text-7xl">รัฐประหาร<br>2557</h2>
         <img src="src/lungtoo.png"/>
         <img src="src/พรบคู่ชีวิต.jpg"/>
         <p data-scroll>2556
@@ -233,7 +241,7 @@
           ในปี 2557 ทำให้ไม่ถูกบรรจุวาระในสภา</p>
       </div>
       <!-- 2563 -->
-      <div data-scroll-section class="bg-wgrey3 px-5 py-40">
+      <div data-scroll-section class="bg-wgrey3 py-40">
         <img src="src/lefthand.png"/>
         <img src="src/แก้ไขปพพ.jpg"/>
         <img src="src/righthand.png"/>
@@ -314,576 +322,5 @@
     //   });
     </script>
   </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="./style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Our Route, Our Rights</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              worange: "#FD9526",
-              wbabyblue: "#7ED7F9",
-              wbabypink: "#FDB8EC",
-              wblue: "#051F90",
-              wpurple: "#542291",
-              wgreen: "#28F72D",
-              wyellow: "#FEFA37",
-              wred: "#FB281D",
-            },
-          },
-        },
-      };
-    </script>
-    <style type="text/tailwindcss">
-      @layer utilities {
-        .content-auto {
-          content-visibility: auto;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div data-scroll-container>
-      <div
-        data-scroll-section
-        data-scroll-call="title"
-        class="bg-black h-screen text-white px-5 flex items-center relative"
-      >
-        <!-- title -->
-        <div>
-          <h1
-            id="hey"
-            data-scroll
-            data-scroll-direction="vertical"
-            data-scroll-speed="2"
-            class=" text-white font-bold text-5xl leading-snug"
-          >
-            OUR<br />ROUTE<br />OUR<br />RIGHTS
-          </h1>
-          <h3
-            id="hi"
-            data-scroll
-            data-scroll-direction="vertical"
-            data-scroll-speed="2"
-            class="text-white font-bold text-lg"
-          >
-           การเดินทางของความเท่าเทียม
-          </h3>
-          <p data-scroll
-          data-scroll-direction="vertical"
-          data-scroll-speed="2"
-          class="text-white text-sm pt-6" >scroll down</p>
-        </div>
-        <!-- rainbow -->
-        <section data-scroll-section class="h-screen w-150 right-0">
-          <svg
-            
-            id="rainbow"
-            data-scroll
-            data-scroll-direction="horizontal"
-            data-scroll-speed="-10"
-            data-scroll-id="rainbow"
-            viewBox="0 0 158 1394"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="w-150 h-screen"
-          >
-            <path
-              class="path-1"
-              d="M4 1V634C4 651.673 18.3269 666 36 666H44.5C62.1731 666 76.5 680.327 76.5 698V1393.5"
-              stroke="#542291"
-              stroke-width="8"
-            />
-            <path
-              class="path-2"
-              d="M19.5 0.5V615C19.5 632.673 33.8269 647 51.5 647H60C77.6731 647 92 661.327 92 679V1393.5"
-              stroke="#051F90"
-              stroke-width="8"
-            />
-            <path
-              class="path-3"
-              d="M35 0V596C35 613.673 49.3269 628 67 628H75.5C93.1731 628 107.5 642.327 107.5 660V1393"
-              stroke="#28F72D"
-              stroke-width="8"
-            />
-            <path
-              class="path-4"
-              d="M50.5 0V577C50.5 594.673 64.8269 609 82.5 609H91C108.673 609 123 623.327 123 641V1393"
-              stroke="#FEFA37"
-              stroke-width="8"
-            />
-            <path
-              class="path-5"
-              d="M66 0L66 558C66 575.673 80.3269 590 98 590H106.5C124.173 590 138.5 604.327 138.5 622V1392.5"
-              stroke="#FD9526"
-              stroke-width="8"
-            />
-            <path
-              class="path-6"
-              d="M81.5 0V539C81.5 556.673 95.8269 571 113.5 571H122C139.673 571 154 585.327 154 603V1392"
-              stroke="#FB281D"
-              stroke-width="8"
-            />
-          </svg>
-        </section>
-      </div>
-      <!-- start -->
-      <div id="start" data-scroll-section data-scroll-call="start" data-scroll-id="start"  class="h-screen px-5 items-center ">
-        <h2
-          data-scroll
-          data-scroll-direction="horizontal"
-          data-scroll-speed="6"
-          class="font-bold text-3xl text-center leading-normal "
-        >
-          เส้นทางของพวกเรา<br>เริ่มต้นขึ้นเมื่อปี
-        </h2>
-        <h4 data-scroll class="font-bold text-wred text-9xl pt-4 inline-block">
-          <span
-            class=" inline-block"
-            data-scroll
-            data-scroll-speed="9"
-            data-scroll-delay="0.2"
-            >2</span
-          >
-          <span
-            class=" inline-block"
-            data-scroll
-            data-scroll-speed="8"
-            data-scroll-delay="0.16"
-            >5</span
-          >
-          <span
-            class=" inline-block"
-            data-scroll
-            data-scroll-speed="8"
-            data-scroll-delay="0.12"
-            >5</span
-          >
-          <span
-            class=" inline-block"
-            data-scroll
-            data-scroll-speed="8"
-            data-scroll-delay="0.08"
-            >2</span
-          >
-        </span>
-      </div>
-      <!-- 2552 -->
-      <div data-scroll-section class="px-5 py-20">
-        
-        <h2 data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="2" data-scroll-call="2552" class="font-bold text-wpurple text-3xl">21 ก.พ.</h2>
-        <p data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="2" class="text-lg leading-normal">
-          เกิดเหตุการณ์ความรุนแรงต่อกลุ่ม LGBTQ+ <br />ครั้งแรกในไทย
-          เพื่อยับยั้งการจัดงาน Parade <br />
-          Gay Pride ในจังหวัดเชียงใหม่ ต่อมาจึงเรียก <br />
-          เหตุการณ์นี้ว่า
-        </p>
-        <h2 data-scroll data-scroll-direction="horizontal"
-        data-scroll-speed="2" class="font-bold text-wpurple text-4xl text-right">
-          'เสาร์ซาวเอ็ด'
-        </h2>
-        <img data-scroll id="fivetwo" data-scroll-id="fivetwo" data-scroll-direction="horizontal" data-scroll-speed="-10"class="py-6" src="src/2552.jpg" />
-        <p data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="6" class="text-lg leading-normal">
-          นักเคลื่อนไหวด้านสิทธิฯ ในไทย กำหนดให้<br>วันที่ 21 กุมภาพันธ์
-          เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ (IDAHOTB) ของไทย
-        </p>
-      </div>
-      <!-- 2555 -->
-      <div data-scroll-section class="px-5 py-20">
-        <div id="fivefive" data-scroll data-scroll-id="fivefive">
-        <h4 id="year" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-id= "year" class="font-bold text-wred text-9xl text-right pt-4">2555</h4>
-        <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" class="text-lg leading-normal pb-6">
-          นที ธีระโรจนพงษ์ และอรรถพล จันทร์<br>ไปแจ้งจดทะเบียนสมรส แต่ถูกปฏิเสธ<br>
-          จึงร้องเรียนไปยังหน่วยงานรัฐที่เกี่ยว<br>
-          ข้องหลายแห่งนับว่าเป็นเชื้อชนวนการ<br>
-          เคลื่อนไหวเพื่อสมรสเท่าเทียมครั้งแรกในไทย
-        </p>
-        <img data-scroll data-scroll-direction="vertical" data-scroll-speed="5"class="float-right py-4" src="src/2555.jpg" />
-        </div>
-      </div>
-      <!-- 2556 -->
-      <div data-scroll-section class="px-5 py-40">
-        <div class="flex justify-start items-center ">
-        <h4 data-scroll data-scroll-direction="vertical" data-scroll-speed="4" class="font-bold text-wred text-9xl -rotate-90 pt-6 inline-block -left-50">2<br>5<br>5<br>6</h4>
-        <!-- <div class="flex static"> -->
-        <p data-scroll data-scroll-direction="vertical" data-scroll-speed="4" class="text-lg leading-normal -pl-6">
-          ร่าง พ.ร.บ.คู่ชีวิต<br>ร่างที่หนึ่งเกิดขึ้น<br>ก่อนจะเผชิญรัฐประหาร<br>ในปี
-          2557 ทำให้ไม่ถูก<br>บรรจุวาระในสภา
-        </p>
-        <img class="float-right" src="src/2556_2.jpg" />
-        <!-- </div> -->
-        </div>
-          <img class=" w-289 h-136" src="src/2556_1.jpg" />
-      </div>
-      <!-- 2552 -->
-      <div data-scroll-section class="px-5 py-20">
-        <h2 data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="2" data-scroll-call="2552" class="font-bold text-wpurple text-3xl">21 ก.พ.</h2>
-        <p data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="2" class="text-lg leading-normal">
-          เกิดเหตุการณ์ความรุนแรงต่อกลุ่ม LGBTQ+ <br />ครั้งแรกในไทย
-          เพื่อยับยั้งการจัดงาน Parade <br />
-          Gay Pride ในจังหวัดเชียงใหม่ ต่อมาจึงเรียก <br />
-          เหตุการณ์นี้ว่า
-        </p>
-        <h2 data-scroll data-scroll-direction="horizontal"
-        data-scroll-speed="2" class="font-bold text-wpurple text-4xl text-right">
-          'เสาร์ซาวเอ็ด'
-        </h2>
-        <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-10"class="py-6" src="src/2552.jpg" />
-        <p data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="6" class="text-lg leading-normal">
-          นักเคลื่อนไหวด้านสิทธิฯ ในไทย กำหนดให้<br>วันที่ 21 กุมภาพันธ์
-          เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ (IDAHOTB) ของไทย
-        </p>
-      </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
-    <script>
-      const scroll = new LocomotiveScroll({
-        el: document.querySelector("[data-scroll-container]"),
-        smooth: true,
-        smartphone: {
-          smooth: true,
-        },
-      });
-    //   scroll.on('call', func => {
-    // if (func === 'title') {
-    //   document.body.style.backgroundColor = 'black'
-    // }else if (func === 'start') {
-    //   document.body.style.backgroundColor = 'blue'
-    // }else if (func === '2552') {
-    //   document.body.style.backgroundColor = 'pink'
-    // }
-    // });
-    //   scroll.on('scroll', (args) => {
-    //     // Get all current elements : args.currentElements
-    //     if (typeof args.currentElements["fivefive"] === "object") {
-    //       let progress = args.currentElements["fivefive"].progress;
-    //       // console.log(progress);
-    //       document.getElementById("fivefive").style.opacity = progress * 1.5;
-    //     }
-    //   });
-    //   scroll.on('scroll', (args) => {
-    //     // Get all current elements : args.currentElements
-    //      if (typeof args.currentElements["fivetwo"] === "object") {
-    //     let progress = args.currentElements['fivetwo'].progress
-    //     //Function use for Change Progress from 0-1  to  0-45
-    //     const map = (value, min1, max1, min2, max2) =>
-    //       ((value - min1) * (max2 - min2)) / (max1 - min1) + min2
-    //     //Find Rotation Degree between 0-45
-    //     let rotateDeg = map(progress, 0, 1, 0, 45)
-    //     document.getElementById(
-    //       'fivetwo'
-    //     ).style.transform = `rotate(${rotateDeg}deg)`
-    //     }
-    //   });
-    </script>
-  </body>
->>>>>>> cf61e761b887db0374c52efa1cdb825faf4a9163
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="./style.css" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Our Route, Our Rights</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              worange: "#FD9526",
-              wbabyblue: "#7ED7F9",
-              wbabypink: "#FDB8EC",
-              wblue: "#051F90",
-              wpurple: "#542291",
-              wgreen: "#28F72D",
-              wyellow: "#FEFA37",
-              wred: "#FB281D",
-            },
-          },
-        },
-      };
-    </script>
-    <style type="text/tailwindcss">
-      @layer utilities {
-        .content-auto {
-          content-visibility: auto;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div data-scroll-container>
-      <div
-        data-scroll-section
-        data-scroll-call="title"
-        class="bg-black h-screen text-white px-5 flex items-center relative"
-      >
-        <!-- title -->
-        <div>
-          <h1
-            id="hey"
-            data-scroll
-            data-scroll-direction="vertical"
-            data-scroll-speed="2"
-            class=" text-white font-bold text-5xl leading-snug"
-          >
-            OUR<br />ROUTE<br />OUR<br />RIGHTS
-          </h1>
-          <h3
-            id="hi"
-            data-scroll
-            data-scroll-direction="vertical"
-            data-scroll-speed="2"
-            class="text-white font-bold text-lg"
-          >
-           การเดินทางของความเท่าเทียม
-          </h3>
-          <p data-scroll
-          data-scroll-direction="vertical"
-          data-scroll-speed="2"
-          class="text-white text-sm pt-6" >scroll down</p>
-        </div>
-        <!-- rainbow -->
-        <section data-scroll-section class="h-screen w-150 right-0">
-          <svg
-            
-            id="rainbow"
-            data-scroll
-            data-scroll-direction="horizontal"
-            data-scroll-speed="-10"
-            data-scroll-id="rainbow"
-            viewBox="0 0 158 1394"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="w-150 h-screen"
-          >
-            <path
-              class="path-1"
-              d="M4 1V634C4 651.673 18.3269 666 36 666H44.5C62.1731 666 76.5 680.327 76.5 698V1393.5"
-              stroke="#542291"
-              stroke-width="8"
-            />
-            <path
-              class="path-2"
-              d="M19.5 0.5V615C19.5 632.673 33.8269 647 51.5 647H60C77.6731 647 92 661.327 92 679V1393.5"
-              stroke="#051F90"
-              stroke-width="8"
-            />
-            <path
-              class="path-3"
-              d="M35 0V596C35 613.673 49.3269 628 67 628H75.5C93.1731 628 107.5 642.327 107.5 660V1393"
-              stroke="#28F72D"
-              stroke-width="8"
-            />
-            <path
-              class="path-4"
-              d="M50.5 0V577C50.5 594.673 64.8269 609 82.5 609H91C108.673 609 123 623.327 123 641V1393"
-              stroke="#FEFA37"
-              stroke-width="8"
-            />
-            <path
-              class="path-5"
-              d="M66 0L66 558C66 575.673 80.3269 590 98 590H106.5C124.173 590 138.5 604.327 138.5 622V1392.5"
-              stroke="#FD9526"
-              stroke-width="8"
-            />
-            <path
-              class="path-6"
-              d="M81.5 0V539C81.5 556.673 95.8269 571 113.5 571H122C139.673 571 154 585.327 154 603V1392"
-              stroke="#FB281D"
-              stroke-width="8"
-            />
-          </svg>
-        </section>
-      </div>
-      <!-- start -->
-      <div id="start" data-scroll-section data-scroll-call="start" data-scroll-id="start"  class="h-screen px-5 items-center ">
-        <h2
-          data-scroll
-          data-scroll-direction="horizontal"
-          data-scroll-speed="6"
-          class="font-bold text-3xl text-center leading-normal "
-        >
-          เส้นทางของพวกเรา<br>เริ่มต้นขึ้นเมื่อปี
-        </h2>
-        <h4 data-scroll class="font-bold text-wred text-9xl pt-4 inline-block">
-          <span
-            class=" inline-block"
-            data-scroll
-            data-scroll-speed="9"
-            data-scroll-delay="0.2"
-            >2</span
-          >
-          <span
-            class=" inline-block"
-            data-scroll
-            data-scroll-speed="8"
-            data-scroll-delay="0.16"
-            >5</span
-          >
-          <span
-            class=" inline-block"
-            data-scroll
-            data-scroll-speed="8"
-            data-scroll-delay="0.12"
-            >5</span
-          >
-          <span
-            class=" inline-block"
-            data-scroll
-            data-scroll-speed="8"
-            data-scroll-delay="0.08"
-            >2</span
-          >
-        </span>
-      </div>
-      <!-- 2552 -->
-      <div data-scroll-section class="px-5 py-20">
-        
-        <h2 data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="2" data-scroll-call="2552" class="font-bold text-wpurple text-3xl">21 ก.พ.</h2>
-        <p data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="2" class="text-lg leading-normal">
-          เกิดเหตุการณ์ความรุนแรงต่อกลุ่ม LGBTQ+ <br />ครั้งแรกในไทย
-          เพื่อยับยั้งการจัดงาน Parade <br />
-          Gay Pride ในจังหวัดเชียงใหม่ ต่อมาจึงเรียก <br />
-          เหตุการณ์นี้ว่า
-        </p>
-        <h2 data-scroll data-scroll-direction="horizontal"
-        data-scroll-speed="2" class="font-bold text-wpurple text-4xl text-right">
-          'เสาร์ซาวเอ็ด'
-        </h2>
-        <img data-scroll id="fivetwo" data-scroll-id="fivetwo" data-scroll-direction="horizontal" data-scroll-speed="-10"class="py-6" src="src/2552.jpg" />
-        <p data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="6" class="text-lg leading-normal">
-          นักเคลื่อนไหวด้านสิทธิฯ ในไทย กำหนดให้<br>วันที่ 21 กุมภาพันธ์
-          เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ (IDAHOTB) ของไทย
-        </p>
-      </div>
-      <!-- 2555 -->
-      <div data-scroll-section class="px-5 py-20">
-        <div id="fivefive" data-scroll data-scroll-id="fivefive">
-        <h4 id="year" data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" data-scroll-id= "year" class="font-bold text-wred text-9xl text-right pt-4">2555</h4>
-        <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" class="text-lg leading-normal pb-6">
-          นที ธีระโรจนพงษ์ และอรรถพล จันทร์<br>ไปแจ้งจดทะเบียนสมรส แต่ถูกปฏิเสธ<br>
-          จึงร้องเรียนไปยังหน่วยงานรัฐที่เกี่ยว<br>
-          ข้องหลายแห่งนับว่าเป็นเชื้อชนวนการ<br>
-          เคลื่อนไหวเพื่อสมรสเท่าเทียมครั้งแรกในไทย
-        </p>
-        <img data-scroll data-scroll-direction="vertical" data-scroll-speed="5"class="float-right py-4" src="src/2555.jpg" />
-        </div>
-      </div>
-      <!-- 2556 -->
-      <div data-scroll-section class="px-5 py-40">
-        <div class="flex justify-start items-center ">
-        <h4 data-scroll data-scroll-direction="vertical" data-scroll-speed="4" class="font-bold text-wred text-9xl -rotate-90 pt-6 inline-block -left-50">2<br>5<br>5<br>6</h4>
-        <!-- <div class="flex static"> -->
-        <p data-scroll data-scroll-direction="vertical" data-scroll-speed="4" class="text-lg leading-normal -pl-6">
-          ร่าง พ.ร.บ.คู่ชีวิต<br>ร่างที่หนึ่งเกิดขึ้น<br>ก่อนจะเผชิญรัฐประหาร<br>ในปี
-          2557 ทำให้ไม่ถูก<br>บรรจุวาระในสภา
-        </p>
-        <img class="float-right" src="src/2556_2.jpg" />
-        <!-- </div> -->
-        </div>
-          <img class=" w-289 h-136" src="src/2556_1.jpg" />
-      </div>
-      <!-- 2552 -->
-      <div data-scroll-section class="px-5 py-20">
-        <h2 data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="2" data-scroll-call="2552" class="font-bold text-wpurple text-3xl">21 ก.พ.</h2>
-        <p data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="2" class="text-lg leading-normal">
-          เกิดเหตุการณ์ความรุนแรงต่อกลุ่ม LGBTQ+ <br />ครั้งแรกในไทย
-          เพื่อยับยั้งการจัดงาน Parade <br />
-          Gay Pride ในจังหวัดเชียงใหม่ ต่อมาจึงเรียก <br />
-          เหตุการณ์นี้ว่า
-        </p>
-        <h2 data-scroll data-scroll-direction="horizontal"
-        data-scroll-speed="2" class="font-bold text-wpurple text-4xl text-right">
-          'เสาร์ซาวเอ็ด'
-        </h2>
-        <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-10"class="py-6" src="src/2552.jpg" />
-        <p data-scroll data-scroll-direction="vertical"
-        data-scroll-speed="6" class="text-lg leading-normal">
-          นักเคลื่อนไหวด้านสิทธิฯ ในไทย กำหนดให้<br>วันที่ 21 กุมภาพันธ์
-          เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ (IDAHOTB) ของไทย
-        </p>
-      </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
-    <script>
-      const scroll = new LocomotiveScroll({
-        el: document.querySelector("[data-scroll-container]"),
-        smooth: true,
-        smartphone: {
-          smooth: true,
-        },
-      });
-      scroll.on('call', func => {
-    if (func === 'title') {
-      document.body.style.backgroundColor = 'black'
-    }else if (func === 'start') {
-      document.body.style.backgroundColor = 'blue'
-    }else if (func === '2552') {
-      document.body.style.backgroundColor = 'pink'
-    }
-    });
-      scroll.on('scroll', (args) => {
-        // Get all current elements : args.currentElements
-        if (typeof args.currentElements["fivefive"] === "object") {
-          let progress = args.currentElements["fivefive"].progress;
-          // console.log(progress);
-          document.getElementById("fivefive").style.opacity = progress * 1.5;
-        }
-      });
-      scroll.on('scroll', (args) => {
-        // Get all current elements : args.currentElements
-         if (typeof args.currentElements["fivetwo"] === "object") {
-        let progress = args.currentElements['fivetwo'].progress
-        //Function use for Change Progress from 0-1  to  0-45
-        const map = (value, min1, max1, min2, max2) =>
-          ((value - min1) * (max2 - min2)) / (max1 - min1) + min2
-        //Find Rotation Degree between 0-45
-        let rotateDeg = map(progress, 0, 1, 0, 45)
-        document.getElementById(
-          'fivetwo'
-        ).style.transform = `rotate(${rotateDeg}deg)`
-        }
-      });
-    </script>
-  </body>
->>>>>>> cf61e761b887db0374c52efa1cdb825faf4a9163
+
 </html>
