@@ -231,13 +231,13 @@
       <!-- เกย์นที -->
       <div data-scroll-section class="bg-wgrey2  py-20">
         <div id="first" data-scroll data-scroll-call="first" data-scroll-id="first" class="flex relative justify-center">
-         <h2 data-scroll class="font-bold px-5 text-wgrey4 text-3xl leading-normal">การเคลื่อนไหวเพื่อ<br>สมรสเท่าเทียม<br>ครั้งแรกในไทย</h2>
-         <div data-scroll class="flex relative bottom-0 ">
-          <h3 data-scroll class="font-bold text-wred text-9xl">1</h3>
+         <h2 data-scroll class="font-bold text-white text-3xl leading-normal">การเคลื่อนไหวเพื่อ<br>สมรสเท่าเทียม<br>ครั้งแรกในไทย</h2>
+         <div data-scroll class="flex relative pt-5 ">
+          <h3 data-scroll class="font-bold text-wred text-9xl ">1</h3>
           <h4 data-scroll class="font-bold text-wred text-3xl">st</h4>
          </div>
         </div>
-        <h2 data-scroll style="padding-top: 100px;" class="text-white px-5 font-bold text-7xl text-right ">'เกย์นที'</h2>
+        <h2 id="gay" data-scroll data-scroll-call="gay" data-scroll-id="gay" style="padding-top: 100px;" class="text-white px-5 font-bold text-7xl text-right ">'เกย์นที'</h2>
          <!-- rainbow5 -->
          <section data-scroll class="pb-4 absolute top-42">
           <svg viewBox="0 0 375 230" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-50 w-screen">
@@ -342,7 +342,16 @@
           let progress = args.currentElements["first"].progress;
           // console.log(progress);
           document.getElementById("first").style.opacity = progress * 2;
-          document.getElementById("first").style.size = progress * 200 + 'px';
+
+        }
+      });
+      scroll.on('scroll', (args) => {
+        // Get all current elements : args.currentElements
+        if (typeof args.currentElements["gay"] === "object") {
+          let progress = args.currentElements["gay"].progress;
+          // console.log(progress);
+          document.getElementById("gay").style.opacity = progress * 1.5;
+          document.getElementById("gay").style.fontSize = progress * 100 + 'px';
         }
       });
       scroll.on('scroll', (args) => {
