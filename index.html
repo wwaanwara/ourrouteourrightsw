@@ -33,9 +33,6 @@
               wgrey5: "#E0E0E0",
               wgrey6: "#F2F2F2",
             },
-            padding: {
-        '100px': '100px',
-      }
           },
         },
       };
@@ -62,7 +59,7 @@
             id="hey"
             data-scroll
             data-scroll-direction="vertical"
-            data-scroll-speed="2"
+            data-scroll-speed="5"
             class=" text-white font-bold text-5xl leading-snug"
           >
             OUR<br />ROUTE<br />OUR<br />RIGHTS
@@ -71,14 +68,14 @@
             id="hi"
             data-scroll
             data-scroll-direction="vertical"
-            data-scroll-speed="2"
+            data-scroll-speed="5"
             class="text-white font-bold text-lg"
           >
            การเดินทางของความเท่าเทียม
           </h3>
           <p data-scroll
           data-scroll-direction="vertical"
-          data-scroll-speed="2"
+          data-scroll-speed="5"
           class="text-white text-sm pt-6" >scroll down</p>
         </div>
         <!-- rainbow -->
@@ -180,16 +177,16 @@
         <!-- rainbow2 -->
         <section data-scroll class="h-screen right-0 items-center">
           <svg  viewBox="0 0 340 851" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-screen h-screen">
-          <path d="M289.5 -64V520.5C289.5 540.382 273.382 556.5 253.5 556.5H39C19.1178 556.5 3 572.618 3 592.5V983" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
-          <path d="M308.5 -48.5V536C308.5 555.882 292.382 572 272.5 572H58C38.1178 572 22 588.118 22 608V998.5" stroke="#008018" stroke-width="5" stroke-linecap="round"/>
-          <path d="M327.5 -32.5V552C327.5 571.882 311.382 588 291.5 588H77C57.1178 588 41 604.118 41 624V1014.5" stroke="#FFA52C" stroke-width="5" stroke-linecap="round"/>
-          <path d="M299 -56.5V528C299 547.882 282.882 564 263 564H48.5C28.6178 564 12.5 580.118 12.5 600V990.5" stroke="#0000F9" stroke-width="5" stroke-linecap="round"/>
-          <path d="M318 -40.5V544C318 563.882 301.882 580 282 580H67.5C47.6178 580 31.5 596.118 31.5 616V1006.5" stroke="#FFFF41" stroke-width="5" stroke-linecap="round"/>
-          <path d="M337 -24.5V560C337 579.882 320.882 596 301 596H86.5C66.6178 596 50.5 612.118 50.5 632V1022.5" stroke="#FF0018" stroke-width="5" stroke-linecap="round"/>
+          <path class="path-1" d="M289.5 -64V520.5C289.5 540.382 273.382 556.5 253.5 556.5H39C19.1178 556.5 3 572.618 3 592.5V983" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
+          <path class="path-1" d="M308.5 -48.5V536C308.5 555.882 292.382 572 272.5 572H58C38.1178 572 22 588.118 22 608V998.5" stroke="#008018" stroke-width="5" stroke-linecap="round"/>
+          <path class="path-1" d="M327.5 -32.5V552C327.5 571.882 311.382 588 291.5 588H77C57.1178 588 41 604.118 41 624V1014.5" stroke="#FFA52C" stroke-width="5" stroke-linecap="round"/>
+          <path class="path-1" d="M299 -56.5V528C299 547.882 282.882 564 263 564H48.5C28.6178 564 12.5 580.118 12.5 600V990.5" stroke="#0000F9" stroke-width="5" stroke-linecap="round"/>
+          <path class="path-1" d="M318 -40.5V544C318 563.882 301.882 580 282 580H67.5C47.6178 580 31.5 596.118 31.5 616V1006.5" stroke="#FFFF41" stroke-width="5" stroke-linecap="round"/>
+          <path class="path-1" d="M337 -24.5V560C337 579.882 320.882 596 301 596H86.5C66.6178 596 50.5 612.118 50.5 632V1022.5" stroke="#FF0018" stroke-width="5" stroke-linecap="round"/>
           </svg></section>
       </div>
       <!-- 2552 -->
-      <div data-scroll-section class="bg-wgrey1">
+      <div id="fivetwo" data-scroll-section data-scroll-call="fivetwo" data-scroll-id="fivetwo" class="bg-wgrey1">
         <!-- rainbow3 -->
         <section data-scroll class="pb-4">
           <svg id="rainbow"
@@ -233,7 +230,7 @@
       </div>
       <!-- เกย์นที -->
       <div data-scroll-section class="bg-wgrey2  py-20">
-        <div class="flex relative justify-center">
+        <div id="first" data-scroll data-scroll-call="first" data-scroll-id="first" class="flex relative justify-center">
          <h2 data-scroll class="font-bold px-5 text-wgrey4 text-3xl leading-normal">การเคลื่อนไหวเพื่อ<br>สมรสเท่าเทียม<br>ครั้งแรกในไทย</h2>
          <div data-scroll class="flex relative bottom-0 ">
           <h3 data-scroll class="font-bold text-wred text-9xl">1</h3>
@@ -265,23 +262,23 @@
       </div>
       <!-- 2556 -->
       <div data-scroll-section class="bg-wgrey2 px-5 py-40">
-        <h2 data-scroll class="font-bold text-white text-right text-7xl">รัฐประหาร<br>2557</h2>
-        <div class="relative items-center">
-        <img id="paper"data-scroll data-scroll-id="paper" data-scroll-direction="horizontal" data-scroll-speed="5"class="absolute right-0" src="src/พรบคู่ชีวิต.jpg"/>
-        <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-5" class="absolute -top-8" src="src/lungtoo.png"/>
+        <h2 data-scroll data-scroll-direction="horizontal" data-scroll-speed="2" class="font-bold text-white text-right text-7xl leading-normal">รัฐประหาร<br>2557</h2>
+        <div style="padding-top: 150px;" class="relative items-center">
+         <img id="paper"data-scroll data-scroll-id="paper" data-scroll-direction="horizontal" data-scroll-speed="5"class="absolute right-24 -top-0.5" src="src/พรบคู่ชีวิต.jpg"/>
+         <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-5" class="absolute -top-3" src="src/lungtoo.png"/>
         </div>
-        <p data-scroll style="padding-top: 600px;" class="text-white leading-normal">2556
+        <p data-scroll style="padding-top: 300px;" class="text-white leading-normal">2556
           ร่าง พ.ร.บ.คู่ชีวิต ร่างที่หนึ่งเกิดขึ้น<br>ก่อนจะเผชิญรัฐประหาร
           ในปี 2557 ทำให้ไม่ถูกบรรจุวาระในสภา</p>
       </div>
       <!-- 2563 -->
       <div data-scroll-section class="bg-wgrey3 py-20">
-        <div class="relative items-end">
+        <div class="relative items-center">
           <img data-scroll data-scroll-direction="vertical" data-scroll-speed="-6" class="absolute top-40 left-40" src="src/แก้ไขปพพ.jpg"/>
         <img data-scroll data-scroll-direction="vertical" data-scroll-speed="-5" class="absolute" src="src/lefthand.png"/>
-        <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="5" class="absolute right-0 -bottom-96" src="src/righthand.png"/>
+        <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="8" style="bottom:-600px;" class="absolute right-0" src="src/righthand.png"/>
         </div>
-        <p data-scroll style="padding-top: 600px;" class="text-white leading-normal pr-5 pl-40 ">มิ.ย. 2563<br>
+        <p data-scroll style="padding-top: 600px;" class="text-white leading-normal pr-5 pl-36 ">มิ.ย. 2563<br>
           พรรคก้าวไกลได้ยื่นเสนอร่าง พ.ร.บ. แก้ไข ป.พ.พ. ต่อประธานสภาผู้แทนราษฎร</p>
       </div>
       <!-- ม็อบมุ้งมิ้ง -->
@@ -338,6 +335,16 @@
       //     document.getElementById("paper").style.transform.rotate = progress * 105 + 'deg';
       //   }
       // });
+      // fivetwo
+      scroll.on('scroll', (args) => {
+        // Get all current elements : args.currentElements
+        if (typeof args.currentElements["first"] === "object") {
+          let progress = args.currentElements["first"].progress;
+          // console.log(progress);
+          document.getElementById("first").style.opacity = progress * 2;
+          document.getElementById("first").style.size = progress * 200 + 'px';
+        }
+      });
       scroll.on('scroll', (args) => {
         // Get all current elements : args.currentElements
          if (typeof args.currentElements["paper"] === "object") {
