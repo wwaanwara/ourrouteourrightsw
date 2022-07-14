@@ -132,7 +132,7 @@
         </section>
       </div>
       <!-- start -->
-      <div id="start" data-scroll-section data-scroll-call="start" data-scroll-id="start"  class="h-screen bg-wgrey1 px-5 flex items-center relative ">
+      <div id="routestart" data-scroll-section data-scroll-call="routestart" data-scroll-id="routestart"  class="bg-wgrey1 h-screen px-5 flex items-center relative ">
         <div class="absolute">
         <h2
           data-scroll
@@ -186,7 +186,7 @@
           </svg></section>
       </div>
       <!-- 2552 -->
-      <div  data-scroll-section data-scroll-call="fivetwo" data-scroll-id="fivetwo" class="bg-wgrey1">
+      <div  data-scroll-section data-scroll-call="fivetwo" data-scroll-id="fivetwo" class="">
         <!-- rainbow3 -->
         <section data-scroll class="pb-6">
           <svg id="rainbow"
@@ -227,8 +227,8 @@
         <p data-scroll-direction="vertical"  data-scroll-speed="8" data-scroll class="text-white leading-normal pl-24 pb-20 ">ได้กลายเป็นจุดเริ่มต้นและแรงผลักดัน<br>ให้นักเคลื่อนไหวด้านสิทธิฯ ในไทย<br>กำหนดให้วันที่ 21 เดือนกุมภาพันธ์<br>ของทุกปี เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ</p>
       </div>
       <!-- เกย์นที -->
-      <div data-scroll-section class="bg-wgrey2  py-20">
-        <div id="first" data-scroll data-scroll-call="first" data-scroll-id="first" class="flex relative justify-center">
+      <div data-scroll-section id="gaynatee" data-scroll data-scroll-call="gaynatee" data-scroll-id="gaynatee" class="py-20">
+        <div id="first" data-scroll data-scroll-call="first" data-scroll-id="first" data-scroll-direction="vertical" data-scroll-speed="5" class="flex relative justify-center">
          <h2 data-scroll class="font-bold text-white text-3xl leading-normal">การเคลื่อนไหวเพื่อ<br>สมรสเท่าเทียม<br>ครั้งแรกในไทย</h2>
          <div data-scroll class="flex relative pt-5 ">
           <h3 data-scroll class="font-bold text-wred text-9xl ">1</h3>
@@ -251,7 +251,7 @@
         <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="5" class="absolute" src="src/nateeleft.png"/>
         <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-5"class="absolute right-0"src="src/nateeright.png"/>
         </div>
-        <p  data-scroll data-scroll-direction="vertical" data-scroll-speed="5" style="padding-top: 500px;" class="text-white leading-normal px-5 pb-6">
+        <p  data-scroll data-scroll-direction="vertical" data-scroll-speed="7" style="padding-top: 500px;" class="text-white leading-normal px-5 pb-6 flex justify-center items-center">
           นที ธีระโรจนพงษ์ และอรรถพล จันทร์<br>ไปแจ้งจดทะเบียนสมรส แต่ถูกปฏิเสธ<br>
           จึงร้องเรียนไปยังหน่วยงานรัฐที่เกี่ยว<br>
           ข้องหลายแห่งนับว่าเป็นเชื้อชนวน<br>การ
@@ -259,18 +259,18 @@
         </p>
       </div>
       <!-- 2556 -->
-      <div data-scroll-section class="bg-wgrey2 px-5 py-40">
+      <div id="fivesix" data-scroll-section data-scroll-call="fivesix" data-scroll-id="fivesix" class=" px-5 py-40">
         <h2 data-scroll data-scroll-direction="horizontal" data-scroll-speed="2" class="font-bold text-white text-right text-6xl leading-normal pb-20">รัฐประหาร<br>2557</h2>
         <div class="relative items-center">
          <img id="paper"data-scroll data-scroll-id="paper" data-scroll-direction="horizontal" data-scroll-speed="5"class="absolute right-24 -top-0.5" src="src/พรบคู่ชีวิต.jpg"/>
-         <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-5" class="absolute -top-3" src="src/lungtoo.png"/>
+         <img data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8" class="absolute -top-3" src="src/lungtoo.png"/>
         </div>
         <p data-scroll style="padding-top: 390px;" class="text-white leading-normal">2556
           ร่าง พ.ร.บ.คู่ชีวิต ร่างที่หนึ่งเกิดขึ้น<br>ก่อนจะเผชิญรัฐประหาร
           ในปี 2557 ทำให้ไม่ถูกบรรจุวาระในสภา</p>
       </div>
       <!-- 2563 -->
-      <div data-scroll-section class="bg-wgrey3 py-20">
+      <div id="sixthree" data-scroll-section data-scroll-call="sixthree" data-scroll-id="sixthree" class="py-20">
         <div class="relative items-center">
           <img data-scroll data-scroll-direction="vertical" data-scroll-speed="-6" class="absolute top-40 left-40" src="src/แก้ไขปพพ.jpg"/>
         <img data-scroll data-scroll-direction="vertical" data-scroll-speed="-5" class="absolute" src="src/lefthand.png"/>
@@ -320,20 +320,20 @@
           smooth: true,
         },
       });
-    //   scroll.on('call', func => {
-    //  if (func === 'start') {
-    //   document.body.style.backgroundColor = 'blue'
-    // }
-    // });
-      // scroll.on('scroll', (args) => {
-      //   // Get all current elements : args.currentElements
-      //   if (typeof args.currentElements["paper"] === "object") {
-      //     let progress = args.currentElements["paper"].progress;
-      //     // console.log(progress);
-      //     document.getElementById("paper").style.transform.rotate = progress * 105 + 'deg';
-      //   }
-      // });
-      // fivetwo
+      scroll.on('call', func => {
+     if (func === 'routestart') {
+      document.body.style.backgroundColor = "#333333";
+    }else if (func === 'fivetwo') {
+      document.body.style.backgroundColor = "#333333";
+    }else if (func === 'gaynatee') {
+      document.body.style.backgroundColor = "#4F4F4F";
+    }else if (func === 'fivesix') {
+      document.body.style.backgroundColor = "#4F4F4F";
+    }
+    else if (func === 'sixthree') {
+      document.body.style.backgroundColor = "#828282";
+    }
+    });
       scroll.on('scroll', (args) => {
         // Get all current elements : args.currentElements
         if (typeof args.currentElements["first"] === "object") {
