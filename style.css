@@ -2,11 +2,7 @@ h1,h2,h3,h4,p,body {
      font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
-.top-padding {
-  padding-top: 100px;
-}
-
-  .path-1,.path-2,.path-3,.path-4,.path-5,.path-6 {
+  .path-1,.path-2,.path-3,.path-4,.path-5,.path-6,.path-7 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
   }
@@ -28,7 +24,9 @@ h1,h2,h3,h4,p,body {
   .path-6 {
     animation: dash 6.25s linear alternate infinite;
   }
-  
+  .path-7 {
+    animation: dash 4s linear alternate infinite;
+  }
   @keyframes dash {
     from {
       stroke-dashoffset: 822;
