@@ -70,7 +70,7 @@
           >
            การเดินทางของความเท่าเทียม
           </h3>
-          <div class="flex items-center pt-16">
+          <div class="flex items-center pt-16 animate-bounce">
           <p data-scroll
           class="text-white text-sm pr-4" >scroll down</p>
           <img data-scroll="" src="src/down.svg"/>
@@ -173,7 +173,7 @@
         </h4>
         </div>
         <!-- rainbow2 -->
-        <section data-scroll class="h-screen right-0 items-center">
+        <section data-scroll class="h-screen w-screen right-0 items-center">
           <svg  viewBox="0 0 340 851" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-334 h-screen">
           <path class="path-7" d="M289.5 -64V520.5C289.5 540.382 273.382 556.5 253.5 556.5H39C19.1178 556.5 3 572.618 3 592.5V983" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
           <path class="path-7" d="M308.5 -48.5V536C308.5 555.882 292.382 572 272.5 572H58C38.1178 572 22 588.118 22 608V998.5" stroke="#008018" stroke-width="5" stroke-linecap="round"/>
@@ -268,7 +268,7 @@
               <path class="path-7" d="M3 28H428C444.016 28 457 40.9837 457 57V109C457 125.016 444.016 138 428 138H202C185.984 138 173 150.984 173 167V177C173 193.016 185.984 206 202 206H611" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
               </svg>
             </section>
-        <h2 data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" class="font-bold text-white text-right text-6xl leading-normal pb-20">รัฐประหาร<br>2557</h2>
+        <h2 data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2" class="font-bold text-white text-6xl leading-normal pb-20">รัฐประหาร<br>2557</h2>
         <div class="relative items-center">
          <img id="paper"data-scroll data-scroll-id="paper" data-scroll-direction="horizontal" data-scroll-speed="5"class="absolute right-24 -top-0.5" src="src/พรบคู่ชีวิต.jpg"/>
          <img data-scroll data-scroll-direction="horizontal" data-scroll-delay="0.2" data-scroll-speed="-8" class="absolute -top-3 -right-8" src="src/lungtoo.png"/>
@@ -278,9 +278,9 @@
           ในปี 2557 ทำให้ไม่ถูกบรรจุวาระในสภา</p>
       </div>
       <!-- 2563 -->
-      <div id="sixthree" data-scroll-section data-scroll-call="sixthree" data-scroll-id="sixthree" class="py-20">
+      <div id="sixtythree" data-scroll-section data-scroll-call="sixtythree" data-scroll-id="sixtythree" class="py-20">
          <!-- rainbow7 -->
-         <section data-scroll class="-top-28 -right-32 absolute">
+         <section data-scroll class="-top-32 -right-44 absolute">
           <svg viewBox="0 0 185 400" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-350 w-7/12">
             <path class="path-7" d="M157 3H79C37.0264 3 3 37.0264 3 79V296C3 337.974 37.0264 372 79 372H157" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
             <path class="path-7" d="M162 8H84C42.0264 8 8 42.0264 8 84V301C8 342.974 42.0264 377 84 377H162" stroke="#0000F9" stroke-width="5" stroke-linecap="round"/>
@@ -300,8 +300,8 @@
       </div>
       <!-- ม็อบมุ้งมิ้ง -->
       <div data-scroll-section class=" px-5 py-40">
-       <h2 data-scroll>'ม็อบไม่มุ้งมิ้ง
-        แต่ตุ้งติ้งค่ะ
+       <h2 data-scroll class="font-bold text-6xl leading-normal">'ม็อบไม่มุ้งมิ้ง<br>
+        แต่ตุ้งติ้งค่ะ<br>
         คุณรัฐบาล'</h2>
         <p data-scroll>โดย คณะเสรีเทยุย์พลัส
         </p>
@@ -348,7 +348,7 @@
       document.body.style.backgroundColor = "#4F4F4F";
     }else if (func === 'fivesix') {
       document.body.style.backgroundColor = "#4F4F4F";
-    }else if (func === 'sixthree') {
+    }else if (func === 'sixtythree') {
       document.body.style.backgroundColor = "#828282";
     }
     });
