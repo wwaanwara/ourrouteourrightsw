@@ -3,8 +3,8 @@ h1,h2,h3,h4,p,body {
 }
 
   .path-1,.path-2,.path-3,.path-4,.path-5,.path-6,.path-7 {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
   }
  .path-1 {
     animation: dash 5s linear alternate infinite;
