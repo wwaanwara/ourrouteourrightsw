@@ -70,7 +70,7 @@
           >
            การเดินทางของความเท่าเทียม
           </h3>
-          <div class="flex items-center pt-16 animate-bounce">
+          <div class="flex items-center pt-16 animate-bounce opacity-70">
           <p data-scroll
           class="text-white text-sm pr-4" >scroll down</p>
           <img data-scroll="" src="src/down.svg"/>
@@ -366,7 +366,7 @@
           let progress = args.currentElements["gay"].progress;
           // console.log(progress);
           document.getElementById("gay").style.opacity = progress * 1.5;
-          document.getElementById("gay").style.fontSize = progress * 100 + 'px';
+          document.getElementById("gay").style.fontSize = progress * 80 + 'px';
         }else if (typeof args.currentElements["truckone"] === "object") {
           let progress = args.currentElements["truckone"].progress;
           // console.log(progress);
@@ -390,6 +390,7 @@
           'paper'
         ).style.transform = `rotate(${rotateDeg}deg)`
         document.getElementById("paper").style.opacity = progress * 2;
+        document.getElementById("lefthand").style.opacity = progress / 2;
         }
       });
       scroll.on('scroll', (args) => {
