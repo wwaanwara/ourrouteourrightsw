@@ -29,13 +29,9 @@ h1,h2,h3,h4,p,body {
   }
   @keyframes dash {
     from {
-      stroke-dashoffset: 822;
+      stroke-dashoffset: 1500;
     }
     to {
       stroke-dashoffset: 0;
     }
   }
-/* body {
-    background: blue;
-    margin-right: 21px;
-    margin-left: 21px;
