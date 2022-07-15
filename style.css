@@ -7,31 +7,35 @@ h1,h2,h3,h4,p,body {
     stroke-dashoffset: 1500;
   }
  .path-1 {
-    animation: dash 2s linear alternate infinite;
+    animation: dash 2s forwards;
   }
   .path-2 {
-    animation: dash 2.25s linear alternate infinite;
+    animation: dash 2.25s forwards;
   }
   .path-3 {
-    animation: dash 2.5s linear alternate infinite;
+    animation: dash 2.5s forwards;
   }
   .path-4 {
-    animation: dash 2.75s linear alternate infinite;
+    animation: dash 2.75s forwards;
   }
   .path-5 {
-    animation: dash 3s linear alternate infinite;
+    animation: dash 3s forwards;
   }
   .path-6 {
-    animation: dash 3.25s linear alternate infinite;
+    animation: dash 3.25s forwards;
   }
   .path-7 {
-    animation: dash 3s linear alternate infinite;
+    animation: dash 3s forwards;
   }
   @keyframes dash {
-    from {
+    0% {
       stroke-dashoffset: 1500;
     }
-    to {
-      stroke-dashoffset: 0;
+    100% {
+      stroke-dashoffset:0;
     }
+  }
+ 
+body{
+    transition:all 0.5s linear;
   }
