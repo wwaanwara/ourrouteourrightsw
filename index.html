@@ -224,7 +224,7 @@
             </svg>
           </section>
         <h2 data-scroll style="padding-top: 300px;" class=" text-3xl text-white px-5 ">เสาร์ซาวเอ็ด</h2>
-        <p  data-scroll class="text-white leading-normal pl-24 pb-32 pt-8">ได้กลายเป็นจุดเริ่มต้นและแรงผลักดัน<br>ให้นักเคลื่อนไหวด้านสิทธิฯ ในไทย<br>กำหนดให้วันที่ 21 เดือนกุมภาพันธ์<br>ของทุกปี เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ</p>
+        <p  data-scroll class="text-white leading-normal pl-20 pb-32 pt-12">ได้กลายเป็นจุดเริ่มต้นและแรงผลักดัน<br>ให้นักเคลื่อนไหวด้านสิทธิฯ ในไทย<br>กำหนดให้วันที่ 21 เดือนกุมภาพันธ์<br>ของทุกปี เป็นวันยุติความรุนแรง<br>ต่อผู้มีความหลากหลายทางเพศ</p>
       </div>
       <!-- เกย์นที -->
       <div data-scroll-section id="gaynatee" data-scroll data-scroll-repeat data-scroll-call="gaynatee" data-scroll-id="gaynatee" class="py-20">
@@ -301,15 +301,19 @@
           พรรคก้าวไกลได้ยื่นเสนอร่าง<br>พ.ร.บ. แก้ไข ป.พ.พ.<br>ต่อประธานสภาผู้แทนราษฎร</p>
       </div>
       <!-- ม็อบมุ้งมิ้ง -->
-      <div data-scroll-section data-scroll data-scroll-repeat data-scroll-call="mungming" class="py-40">
-       <h2 data-scroll class="font-bold text-4xl leading-normal px-5">'ม็อบไม่มุ้งมิ้ง<br>
+      <div data-scroll-section data-scroll data-scroll-repeat data-scroll-call="mungming" class="pt-40 pb-80">
+       <h2 data-scroll class="flex justify-center font-bold text-4xl leading-normal px-5">'ม็อบไม่มุ้งมิ้ง<br>
         แต่ตุ้งติ้งค่ะ<br>
         คุณรัฐบาล'</h2>
         <p data-scroll class="text-right px-5">โดย คณะเสรีเทยุย์พลัส
         </p>
+        <div class="relative pt-12 ">
+        <img class="absolute w-screen" src="src/mungming1.png"/>
+        <img class="absolute w-screen top-44" src="src/mungming2.png"/>
+        </div>
       </div>
       <!-- พ.ย.2563 -->
-      <div data-scroll-section data-scroll data-scroll-repeat class="bg-wgrey5 px-5 py-40">
+      <div data-scroll-section data-scroll data-scroll-repeat data-scroll-call="kaoklai" class="bg-wgrey5 px-5 py-40">
         <p>มิ.ย. 2563
           พรรคก้าวไกลได้ยื่นเสนอร่าง พ.ร.บ. แก้ไข ป.พ.พ. ต่อประธานสภาผู้แทนราษฎร</p>
       </div>
@@ -354,6 +358,8 @@
       document.body.style.backgroundColor = "#828282";
     }else if (func === 'mungming') {
       document.body.style.backgroundColor = "#BDBDBD";
+    }else if (func === 'kaoklai') {
+      document.body.style.backgroundColor = "#E0E0E0";
     }
     });
       scroll.on('scroll', (args) => {
