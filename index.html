@@ -68,6 +68,8 @@
           <h3
             id="hi"
             data-scroll
+            data-scroll-speed="3"
+            data-scroll-position="top"
             class="text-white font-bold text-lg pt-2"
           >
            การเดินทางของความเท่าเทียม
@@ -82,7 +84,7 @@
         <div 
         data-scroll data-scroll-direction="vertical"
         data-scroll-speed="5" 
-        data-scroll-id="rainbow-1" class="pt-[40vh]"
+        data-scroll-id="rainbow-1" class=""
        >
         <svg class="w-24" viewBox="0 0 131 2153" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M3 1.5V1095.5C3 1113.17 17.3269 1127.5 35 1127.5H43.5C61.1731 1127.5 75.5 1141.83 75.5 1159.5V2152" stroke="#86007D" stroke-width="5"/>
@@ -256,7 +258,7 @@
       <!-- 2563 -->
       <div id="sixtythree" data-scroll-section data-scroll data-scroll-call="sixtythree" data-scroll-id="sixtythree" class="h-[200vh] relative py-20">
         <!-- text -->
-        <div data-scroll >
+        <div data-scroll class="text-white">
           <p data-scroll class="absolute  left-1/2  font-bold text-3xl px-5 pt-16">มิ.ย. 2563</p>
            <p data-scroll class="absolute  left-1/2  px-5  pt-28">
             พรรคก้าวไกลได้ยื่น<br>เสนอร่างพ.ร.บ. แก้ไข ป.พ.พ.ต่อประธานสภาผู้แทนราษฎร</p>
@@ -277,17 +279,19 @@
       </div>
       
       <!-- ม็อบมุ้งมิ้ง -->
-      <div data-scroll-section data-scroll data-scroll-call="mungming" class="pt-40 pb-80">
+      <div data-scroll-section data-scroll data-scroll-call="mungming" class="pt-40 pb-20">
+        <!-- rainbow8 -->
        <div data-scroll data-scroll data-scroll-direction="vertical"
        data-scroll-speed="5" class="w-screen" >
-        <svg width="734" height="448" viewBox="0 0 734 448" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 734 448" fill="none" xmlns="http://www.w3.org/2000/svg" >
         <path d="M708.5 445.5H522.5C484.668 445.5 454 414.832 454 377V377C454 339.168 423.332 308.5 385.5 308.5H302.5C260.526 308.5 226.5 274.474 226.5 232.5V101.5C226.5 59.5264 192.474 25.5 150.5 25.5H2.5" stroke="#FF0018" stroke-width="5" stroke-linecap="round"/>
         <path d="M713 441H527C489.168 441 458.5 410.332 458.5 372.5V372.5C458.5 334.668 427.832 304 390 304H307C265.026 304 231 269.974 231 228V97C231 55.0264 196.974 21 155 21H7" stroke="#FFA52C" stroke-width="5" stroke-linecap="round"/>
         <path d="M717.5 436.5H531.5C493.668 436.5 463 405.832 463 368V368C463 330.168 432.332 299.5 394.5 299.5H311.5C269.526 299.5 235.5 265.474 235.5 223.5V92.5C235.5 50.5264 201.474 16.5 159.5 16.5H11.5" stroke="#FFFF41" stroke-width="5" stroke-linecap="round"/>
         <path d="M722 432H536C498.168 432 467.5 401.332 467.5 363.5V363.5C467.5 325.668 436.832 295 399 295H316C274.026 295 240 260.974 240 219V88C240 46.0264 205.974 12 164 12H16" stroke="#008018" stroke-width="5" stroke-linecap="round"/>
         <path d="M726.5 427.5H540.5C502.668 427.5 472 396.832 472 359V359C472 321.168 441.332 290.5 403.5 290.5H320.5C278.526 290.5 244.5 256.474 244.5 214.5V83.5C244.5 41.5264 210.474 7.5 168.5 7.5H20.5" stroke="#0000F9" stroke-width="5" stroke-linecap="round"/>
         <path d="M731 423H545C507.168 423 476.5 392.332 476.5 354.5V354.5C476.5 316.668 445.832 286 408 286H325C283.026 286 249 251.974 249 210V79C249 37.0264 214.974 3 173 3H25" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
-        </svg></div> 
+        </svg>
+      </div> 
        <h2 data-scroll class="flex justify-center font-bold text-4xl leading-normal px-5">'ม็อบไม่มุ้งมิ้ง<br>
         แต่ตุ้งติ้งค่ะ<br>
         คุณรัฐบาล'</h2>
@@ -358,11 +362,100 @@
         <h2 data-scroll class="font-bold text-7xl">'ม็อบสมรสเท่าเทียม'</h2>
           <p data-scroll class="pt-4">โดย ภาคีสีรุ้งเพื่อการสมรสเท่าเทียม
           </p>
-        <img class="pt-4"src="src/sticker.jpg"/>
+        <div class="pt-5">
+        <h2 class="text-center font-bold text-xl">ลงชื่อเสนอกฎหมาย<br>สมรสเท่าเทียม(ฉบับประชาชน)</h2>
+        <img src="src/sticker.jpg"/>
+        </div>
+        <div class="pt-20 relative h-[200vh]">
+        <img id="marry1" data-scroll data-scroll-id="marry1" class="absolute pt-4 right-0 z-10"src="src/marry1.jpg"/>
+        <img id="marry2" data-scroll data-scroll-id="marry2" style="padding-top: 250px;" class="absolute z-8" src="src/marry2.jpg"/>
+        <img id="marry3" data-scroll data-scroll-id="marry3" style="padding-top: 450px;" class="absolute right-0 z-6"src="src/marry3.jpg"/>
+        <img id="marry4" data-scroll data-scroll-id="marry4" style="padding-top: 650px;" class="absolute z-4"src="src/marry4.jpg"/>
+        </div>
       </div>
       <!-- บางกอกนฤมิตไพรด์ -->
-      <div data-scroll-section data-scroll class="bg-wgrey6 px-5 py-40">
-        <p>บางกอกนฤมิตไพรด์</p>
+      <div data-scroll-section data-scroll class=" pb-40">
+        <!-- redpaper -->
+        <div >
+          <div data-scroll style="background-image:url('src/red-paper2.png') ; background-size: 100% 100%;" class="py-20 px-24 bg-center w-fit bg-no-repeat">
+          <h2 class="font-bold text-white text-center text-3xl whitespace-nowrap inline ">“ครั้งแรก”<br>ของกรุงเทพมหานคร</h2>
+         </div> 
+        </div>
+        <!-- rainbow bg text -->
+        <div class="pt-28">
+         <!-- purple -->
+         <div class="rotate-[-10deg] ">
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" style="background-size: 100% 100%;" class="py-2 px-28 bg-center bg-wpurple w-fit bg-no-repeat">
+          <h2 class="font-bold text-white text-center text-4xl whitespace-nowrap inline">บางกอกนฤมิตไพรด์</h2>
+         </div> 
+         </div>
+         <!-- blue -->
+         <div class="rotate-[-10deg] ">
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-4" style="background-size: 100% 100%;" class="py-2 px-28 bg-center bg-wblue w-fit bg-no-repeat">
+          <h2 class="font-bold text-white text-center text-4xl whitespace-nowrap inline">บางกอกนฤมิตไพรด์</h2>
+         </div> 
+         </div>
+         <!-- green -->
+         <div class="rotate-[-10deg] ">
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" style="background-size: 100% 100%;" class="py-2 px-28 bg-center bg-wgreen w-fit bg-no-repeat">
+          <h2 class="font-bold text-white text-center text-4xl whitespace-nowrap inline">บางกอกนฤมิตไพรด์</h2>
+         </div> 
+         </div>
+         <!-- yellow -->
+         <div class="rotate-[-10deg] ">
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-4" style="background-size: 100% 100%;" class="py-2 px-28 bg-center bg-wyellow w-fit bg-no-repeat">
+          <h2 class="font-bold text-white text-center text-4xl whitespace-nowrap inline">บางกอกนฤมิตไพรด์</h2>
+         </div> 
+         </div>
+         <!-- orange -->
+         <div class="rotate-[-10deg] ">
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" style="background-size: 100% 100%;" class="py-2 px-28 bg-center bg-worange w-fit bg-no-repeat">
+          <h2 class="font-bold text-white text-center text-4xl whitespace-nowrap inline">บางกอกนฤมิตไพรด์</h2>
+         </div> 
+         </div>
+        <!-- red -->
+         <div class="rotate-[-10deg] ">
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-4" style="background-size: 100% 100%;" class="py-2 px-28 bg-center bg-wred w-fit bg-no-repeat">
+          <h2 class="font-bold text-white text-center text-4xl whitespace-nowrap inline">บางกอกนฤมิตไพรด์</h2>
+         </div> 
+         </div>
+        </div>
+        <!-- direction -->
+        <div class="ralative pt-32 h-[75vh]">
+          <!-- rainbow-road -->
+          <svg width="301" height="292" viewBox="0 0 301 292" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute">
+            <path d="M-14 28.8123H268.5C285.069 28.8123 298.5 42.2437 298.5 58.8123V120.646C298.5 137.215 285.069 150.646 268.5 150.646H107C90.4315 150.646 77 164.078 77 180.646V259C77 275.569 90.4315 289 107 289H285.5" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
+            <path d="M-19 23.6498H263.5C280.069 23.6498 293.5 37.0813 293.5 53.6498V115.484C293.5 132.052 280.069 145.484 263.5 145.484H102C85.4315 145.484 72 158.915 72 175.484V253.838C72 270.406 85.4315 283.838 102 283.838H280.5" stroke="#0000F9" stroke-width="5" stroke-linecap="round"/>
+            <path d="M-24 18.4874H258.5C275.069 18.4874 288.5 31.9188 288.5 48.4874V110.321C288.5 126.89 275.069 140.321 258.5 140.321H97C80.4315 140.321 67 153.753 67 170.321V248.675C67 265.244 80.4315 278.675 97 278.675H275.5" stroke="#008018" stroke-width="5" stroke-linecap="round"/>
+            <path d="M-29 13.3249H253.5C270.069 13.3249 283.5 26.7563 283.5 43.3249V105.159C283.5 121.727 270.069 135.159 253.5 135.159H92C75.4315 135.159 62 148.59 62 165.159V243.513C62 260.081 75.4315 273.513 92 273.513H270.5" stroke="#FFFF41" stroke-width="5" stroke-linecap="round"/>
+            <path d="M-34 8.16248H248.5C265.069 8.16248 278.5 21.5939 278.5 38.1625V99.9964C278.5 116.565 265.069 129.996 248.5 129.996H87C70.4315 129.996 57 143.428 57 159.996V238.35C57 254.919 70.4315 268.35 87 268.35H265.5" stroke="#FFA52C" stroke-width="5" stroke-linecap="round"/>
+            <path d="M-39 3H243.5C260.069 3 273.5 16.4315 273.5 33V94.8339C273.5 111.402 260.069 124.834 243.5 124.834H82C65.4315 124.834 52 138.265 52 154.834V233.188C52 249.756 65.4315 263.188 82 263.188H260.5" stroke="#FF0018" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+          <img class="absolute left-0" src="src/wat.png"/>
+          <img class="absolute right-0 pt-44" src="src/silom.png">
+        </div> 
+         <!-- pride card -->
+        <div>
+          <div>
+            <img src="src/pride1.jpg"/>
+            <p>บรรยากาศภายในงานได้มีการจัดกิจกรรมเชิงสัญลักษณ์และการปราศรัยประเด็นเรียกร้องความหลากหลายทางเพศ</p>
+          </div>
+          <div>
+            <img class="w-screen" src="src/pride2.jpg"/>
+            <p>รวมทั้งมีการยืนสงบนิ่งเพื่อไว้อาลัยให้แก่การ
+              สูญเสียจากสงครามทั่วโลกและนักกิจกรรม
+              ชาวไทยที่ยังอยู่ในเรือนจำ </p>
+          </div>
+          <div>
+            <img class="w-screen" src="src/pride3.jpg"/>
+            <p>นอกจากนี้ยังมีการร่วมผลักดันให้การค้า
+              ประเวณีถูกกฎหมาย และร่าง พ.ร.บ.คู่สมรส ที่จะเข้าสู่การพิจารณาในสภาในวันที่ 8 มิถุนายนด้วย</p>
+          </div>
+          <div>
+            <img class="w-screen" src="src/pride4.jpg"/>
+          </div>
+        </div>
+
       </div>
       <!-- ผ่านวาระแรก -->
       <div data-scroll-section data-scroll class="bg-wgrey6 px-5 py-40">
@@ -373,6 +466,7 @@
         <p>ยังไม่จบ</p>
       </div>
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
     <script>
       const scroll = new LocomotiveScroll({
@@ -454,19 +548,25 @@
           // console.log(progress);
           document.getElementById("lefthand").style.opacity = progress * 1.5;
           console.log(progress,'condition 1')
-        }else  if (typeof args.currentElements["papertwo"] === "object") {
-          let progress = args.currentElements["papertwo"].progress;
-          // console.log(progress);
-          document.getElementById("papertwo").style.opacity = progress * 1;
-          console.log(progress,'condition 2')
         }else  if (typeof args.currentElements["paperthree"] === "object") {
           let progress = args.currentElements["paperthree"].progress;
           // console.log(progress);
           document.getElementById("paperthree").style.opacity = progress * 1.5;
           console.log(progress,'condition 4')
         }
-     
-     
+      }); 
+      scroll.on('scroll', (args) => {
+        // Get all current elements : args.currentElements
+         if (typeof args.currentElements["marry1"] === "object") {
+        let progress = args.currentElements['marry1'].progress
+        //Function use for Change Progress from 0-1  to  0-45
+        const map = (value, min1, max1, min2, max2) =>
+          ((value - min1) * (max2 - min2)) / (max1 - min1) + min2
+        //Find Rotation Degree between 0-45
+        let rotateDeg = map(progress, 0, 1, 0, 35)
+        let marry1 =  document.getElementById("marry1")
+        marry1.style.transform = `rotate(${rotateDeg}deg)`
+        }
       });
     </script>
   </body>
