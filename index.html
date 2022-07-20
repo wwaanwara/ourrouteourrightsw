@@ -47,7 +47,7 @@
   </head>
   <body>
     <div data-scroll-container>
-
+      <!-- title -->
       <div
         data-scroll-section
         data-scroll-call="title"
@@ -277,7 +277,6 @@
           <img class="absolute right-0 bottom-0 " src="src/righthand.png"/>
         </div>
       </div>
-      
       <!-- ม็อบมุ้งมิ้ง -->
       <div data-scroll-section data-scroll data-scroll-call="mungming" class="pt-40 pb-20">
         <!-- rainbow8 -->
@@ -374,11 +373,11 @@
         </div>
       </div>
       <!-- บางกอกนฤมิตไพรด์ -->
-      <div data-scroll-section data-scroll class=" pb-40">
+      <div data-scroll-section data-scroll data-scroll-call="pride" class=" pb-40">
         <!-- redpaper -->
         <div >
-          <div data-scroll style="background-image:url('src/red-paper2.png') ; background-size: 100% 100%;" class="py-20 px-24 bg-center w-fit bg-no-repeat">
-          <h2 class="font-bold text-white text-center text-3xl whitespace-nowrap inline ">“ครั้งแรก”<br>ของกรุงเทพมหานคร</h2>
+          <div data-scroll style="background-image:url('src/red-paper2.png') ; background-size: 100% 100%;" class="pb-20 pt-12 pr-20 pl-16 bg-center text-center w-fit bg-no-repeat">
+          <h2 class="font-bold text-white text-3xl whitespace-nowrap inline">“ครั้งแรก”<br>ของกรุงเทพมหานคร</h2>
          </div> 
         </div>
         <!-- rainbow bg text -->
@@ -458,12 +457,60 @@
 
       </div>
       <!-- ผ่านวาระแรก -->
-      <div data-scroll-section data-scroll class="bg-wgrey6 px-5 py-40">
-        <p>ผ่านวาระแรก</p>
-      </div>
-       <!-- ยังไม่จบ -->
-      <div data-scroll-section data-scroll class="bg-wgrey6 px-5 py-40">
-        <p>ยังไม่จบ</p>
+      <div data-scroll-section data-scroll class="bg-wgrey6 py-40">
+        <div class="relative h-[100vh]">
+          <img class="absolute" src="src/green-paper2.png"/>
+          <div>
+          <h2 class="absolute font-bold text-white text-4xl">สมรสเท่าเทียม</h2>
+          <h1 class="absolute font-bold text-white text-8xl">ผ่าน</h1>
+          <h2 class="absolute font-bold text-white text-4xl">วาระแรก</h2>
+          <h3 class="absolute font-bold text-white text-2xl">15 มิ.ย. 65</h3>
+        </div>
+        </div>
+        <div class="pl-20 flex text-lg ">
+            <p class="pr-16">จำนวนผู้ลงมติ</p>
+            <p>406</p>
+        </div>
+        <div class="flex pt-5">
+        <div data-scroll style="background-size: 100% 100%;" class="py-10 px-12 bg-center bg-wgreen w-fit text-center bg-no-repeat">
+              <h2 class="font-bold text-white leading-normal text-3xl whitespace-nowrap inline">เห็นด้วย<br>210</h2>
+        </div>
+        <div data-scroll style="background-size: 100% 100%;" class="py-10 px-8 bg-center bg-wred w-fit text-center bg-no-repeat">
+          <h2 class="font-bold text-black leading-normal text-3xl whitespace-nowrap inline">ไม่เห็นด้วย<br>180</h2>
+        </div>  
+        </div>
+        <div class="pl-20 pt-5 flex text-lg ">
+          <p class="pr-20">งดออกเสียง</p>
+          <p>12</p>
+        </div>
+        <div class="pl-20 pt-5 flex text-lg">
+          <p class="pr-12">ไม่ลงคะแนนเสียง</p>
+          <p>4</p>
+        </div>
+        <div class="relative h-96 pt-20">
+          <!-- rainbow13 -->
+          <svg height="329" viewBox="0 0 357 329" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-screen">
+            <path d="M3 481L2.99998 81.047C2.99998 55.5206 23.6932 34.8274 49.2196 34.8274V34.8274C74.746 34.8274 95.4392 55.5206 95.4392 81.047L95.4392 235.858C95.4392 260.897 115.737 281.195 140.776 281.195V281.195C165.814 281.195 186.112 260.897 186.112 235.858L186.112 101.675C186.112 75.8236 207.069 54.8668 232.921 54.8668V54.8668C258.772 54.8668 279.729 75.8237 279.729 101.675L279.729 129.773C279.729 157.738 302.399 180.408 330.364 180.408V180.408C358.33 180.408 381 157.738 381 129.773L381 2.99997" stroke="#FF0018" stroke-width="5" stroke-linecap="round"/>
+            <path d="M11 489L11 89.047C11 63.5206 31.6932 42.8274 57.2196 42.8274V42.8274C82.746 42.8274 103.439 63.5206 103.439 89.047L103.439 243.858C103.439 268.897 123.737 289.195 148.776 289.195V289.195C173.814 289.195 194.112 268.897 194.112 243.858L194.112 109.675C194.112 83.8236 215.069 62.8668 240.921 62.8668V62.8668C266.772 62.8668 287.729 83.8237 287.729 109.675L287.729 137.773C287.729 165.738 310.399 188.408 338.364 188.408V188.408C366.33 188.408 389 165.738 389 137.773L389 11" stroke="#FFA52C" stroke-width="5" stroke-linecap="round"/>
+            <path d="M19 496L19 96.9804C19 71.454 39.6932 50.7608 65.2196 50.7608V50.7608C90.746 50.7608 111.439 71.454 111.439 96.9804L111.439 251.276C111.439 276.315 131.737 296.613 156.776 296.613V296.613C181.814 296.613 202.112 276.315 202.112 251.276L202.112 117.567C202.112 91.7151 223.069 70.7583 248.921 70.7583V70.7583C274.772 70.7583 295.729 91.7151 295.729 117.567L295.729 145.401C295.729 173.367 318.399 196.037 346.364 196.037V196.037C374.33 196.037 397 173.367 397 145.401L397 19" stroke="#FFFF41" stroke-width="5" stroke-linecap="round"/>
+            <path d="M27 503L27 103.98C27 78.454 47.6932 57.7608 73.2196 57.7608V57.7608C98.746 57.7608 119.439 78.454 119.439 103.98L119.439 258.276C119.439 283.315 139.737 303.613 164.776 303.613V303.613C189.814 303.613 210.112 283.315 210.112 258.276L210.112 124.567C210.112 98.7151 231.069 77.7583 256.921 77.7583V77.7583C282.772 77.7583 303.729 98.7151 303.729 124.567L303.729 152.401C303.729 180.367 326.399 203.037 354.364 203.037V203.037C382.33 203.037 405 180.367 405 152.401L405 26" stroke="#008018" stroke-width="5" stroke-linecap="round"/>
+            <path d="M35 510L35 110.98C35 85.454 55.6932 64.7608 81.2196 64.7608V64.7608C106.746 64.7608 127.439 85.454 127.439 110.98L127.439 265.276C127.439 290.315 147.737 310.613 172.776 310.613V310.613C197.814 310.613 218.112 290.315 218.112 265.276L218.112 131.567C218.112 105.715 239.069 84.7583 264.921 84.7583V84.7583C290.772 84.7583 311.729 105.715 311.729 131.567L311.729 159.401C311.729 187.367 334.399 210.037 362.364 210.037V210.037C390.33 210.037 413 187.367 413 159.401L413 33" stroke="#0000F9" stroke-width="5" stroke-linecap="round"/>
+            <path d="M43 518L43 118.047C43 92.5206 63.6932 71.8274 89.2196 71.8274V71.8274C114.746 71.8274 135.439 92.5206 135.439 118.047L135.439 272.858C135.439 297.897 155.737 318.195 180.776 318.195V318.195C205.814 318.195 226.112 297.897 226.112 272.858L226.112 138.675C226.112 112.824 247.069 91.8668 272.921 91.8668V91.8668C298.772 91.8668 319.729 112.824 319.729 138.675L319.729 166.773C319.729 194.738 342.399 217.408 370.364 217.408V217.408C398.33 217.408 421 194.738 421 166.773L421 40" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+            
+          <img class="absolute bottom-0 animate-bounce" src="src/hands1.png"/>
+          <img class="absolute bottom-0 animate-bounce" src="src/hands2.png"/>
+        </div>
+      </div> 
+      <!-- ยังไม่จบ -->
+      <div data-scroll-section data-scroll class="bg-wgrey6 pb-96">
+      <h2 class="text-center text-3xl font-bold">การเดินทางของเรา</h2>
+      <h1 class="text-7xl font-bold ">ยังไม่จบ</h1>
+      <h1 class="text-7xl font-bold ">ยังไม่จบ</h1>
+      <h1 class="text-7xl font-bold ">ยังไม่จบ</h1>
+      <h1 class="text-7xl font-bold ">ยังไม่จบ</h1>
+      <p class="text-center">สามารถลงชื่อสนับสนุนและติดตามสมรสเท่าเทียมได้ที่</p>
+      <img class="bottom-0 mix-blend-color-burn" src="src/tearpaper.png">
       </div>
     </div>
     
@@ -492,6 +539,8 @@
       document.body.style.backgroundColor = "#BDBDBD";
     }else if (func === 'kaoklai') {
       document.body.style.backgroundColor = "#E0E0E0";
+    }else if (func === 'pride') {
+      document.body.style.backgroundColor = "#F2F2F2";
     }
     });
       scroll.on('scroll', (args) => {
