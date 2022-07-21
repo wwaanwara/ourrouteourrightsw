@@ -87,12 +87,12 @@
         data-scroll-id="rainbow-1" class=""
        >
         <svg class="w-24" viewBox="0 0 131 2153" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3 1.5V1095.5C3 1113.17 17.3269 1127.5 35 1127.5H43.5C61.1731 1127.5 75.5 1141.83 75.5 1159.5V2152" stroke="#86007D" stroke-width="5"/>
-          <path d="M13.5 1.5V1076.5C13.5 1094.17 27.8269 1108.5 45.5 1108.5H54C71.6731 1108.5 86 1122.83 86 1140.5V2152" stroke="#0000F9" stroke-width="5"/>
-          <path d="M24 0.5V1057.5C24 1075.17 38.3269 1089.5 56 1089.5H64.5C82.1731 1089.5 96.5 1103.83 96.5 1121.5V2150" stroke="#008018" stroke-width="5"/>
-          <path d="M34.5 2.5V1038.5C34.5 1056.17 48.8269 1070.5 66.5 1070.5H75C92.6731 1070.5 107 1084.83 107 1102.5V2152" stroke="#FFFF41" stroke-width="5"/>
-          <path d="M45 2V1019.5C45 1037.17 59.3269 1051.5 77 1051.5H85.5C103.173 1051.5 117.5 1065.83 117.5 1083.5V2153" stroke="#FFA52C" stroke-width="5"/>
-          <path d="M55.5 0V1000.5C55.5 1018.17 69.8269 1032.5 87.5 1032.5H96C113.673 1032.5 128 1046.83 128 1064.5V2152.5" stroke="#FF0018" stroke-width="5"/>
+          <path class="path-1" d="M3 1.5V1095.5C3 1113.17 17.3269 1127.5 35 1127.5H43.5C61.1731 1127.5 75.5 1141.83 75.5 1159.5V2152" stroke="#86007D" stroke-width="5"/>
+          <path class="path-2" d="M13.5 1.5V1076.5C13.5 1094.17 27.8269 1108.5 45.5 1108.5H54C71.6731 1108.5 86 1122.83 86 1140.5V2152" stroke="#0000F9" stroke-width="5"/>
+          <path class="path-3" d="M24 0.5V1057.5C24 1075.17 38.3269 1089.5 56 1089.5H64.5C82.1731 1089.5 96.5 1103.83 96.5 1121.5V2150" stroke="#008018" stroke-width="5"/>
+          <path class="path-4" d="M34.5 2.5V1038.5C34.5 1056.17 48.8269 1070.5 66.5 1070.5H75C92.6731 1070.5 107 1084.83 107 1102.5V2152" stroke="#FFFF41" stroke-width="5"/>
+          <path class="path-5" d="M45 2V1019.5C45 1037.17 59.3269 1051.5 77 1051.5H85.5C103.173 1051.5 117.5 1065.83 117.5 1083.5V2153" stroke="#FFA52C" stroke-width="5"/>
+          <path class="path-6" d="M55.5 0V1000.5C55.5 1018.17 69.8269 1032.5 87.5 1032.5H96C113.673 1032.5 128 1046.83 128 1064.5V2152.5" stroke="#FF0018" stroke-width="5"/>
           </svg>
         </div>
       </div>
@@ -388,10 +388,14 @@
           <path d="M29.3301 141L29.3301 104C29.3301 62.0264 63.3564 28 105.33 28L389 28" stroke="#FF0018" stroke-width="5" stroke-linecap="round"/>
           </svg>
         </div>
-        <div class="relative h-[100vh] pt-28 px-5">
-          <img class="absolute" src="src/sticker.jpg"/>
-          <h2 class="absolute text-center font-bold text-xl pt-6 px-10">ลงชื่อเสนอกฎหมาย<br>สมรสเท่าเทียม(ฉบับประชาชน)</h2>
-          <img class="absolute pt-24 pl-10" src="src/person.png"/>
+        <div  class="relative h-[100vh] pt-28 px-5">
+          <div class="w-full h-full" style="background-image: url('src/sticker.jpg');">
+             <h2 class="text-center font-bold text-xl pt-6 px-10">ลงชื่อเสนอกฎหมาย<br>สมรสเท่าเทียม(ฉบับประชาชน)</h2>
+             <div  class="w-full h-full pt-4 px-4 flex items-start justify-center">
+               <div data-scroll data-scroll-repeat id="human-loop" class="grid grid-cols-8 gap-4">
+               </div>
+             </div>
+          </div>
         </div>
         <!-- rainbow12 -->
         <div data-scroll class="absolute left-0 bottom-0 z-0">
@@ -405,10 +409,10 @@
           </svg>
         </div>
         <div class="pt-28 z-10">
-        <img id="marry1" data-scroll data-scroll-id="marry1" class=" pt-4 float-right "src="src/marry1.jpg"/>
-        <img id="marry2" data-scroll data-scroll-id="marry2" style="padding-top: 50px;" class=" " src="src/marry2.jpg"/>
-        <img id="marry3" data-scroll data-scroll-id="marry3" style="padding-top: 50px;" class=" float-right "src="src/marry3.jpg"/>
-        <img id="marry4" data-scroll data-scroll-id="marry4" style="padding-top: 50px;" class=""src="src/marry4.jpg"/>
+          <img id="marry1" data-scroll data-scroll-id="marry1" class=" pt-4 float-right "src="src/marry1.jpg"/>
+          <img id="marry2" data-scroll data-scroll-id="marry2" style="padding-top: 50px;" class=" " src="src/marry2.jpg"/>
+          <img id="marry3" data-scroll data-scroll-id="marry3" style="padding-top: 50px;" class=" float-right "src="src/marry3.jpg"/>
+          <img id="marry4" data-scroll data-scroll-id="marry4" style="padding-top: 50px;" class=""src="src/marry4.jpg"/>
         </div>
       </div>
       <!-- บางกอกนฤมิตไพรด์ -->
@@ -478,17 +482,17 @@
         <div class="pt-44">
           <div>
             <img src="src/pride1.jpg"/>
-            <p>บรรยากาศภายในงานได้มีการจัดกิจกรรมเชิงสัญลักษณ์และการปราศรัยประเด็นเรียกร้องความหลากหลายทางเพศ</p>
+            <p class="py-4 px-5">บรรยากาศภายในงานได้มีการจัดกิจกรรมเชิงสัญลักษณ์และการปราศรัยประเด็นเรียกร้องความหลากหลายทางเพศ</p>
           </div>
           <div>
             <img class="w-screen" src="src/pride2.jpg"/>
-            <p>รวมทั้งมีการยืนสงบนิ่งเพื่อไว้อาลัยให้แก่การ
+            <p class="py-4 px-5" >รวมทั้งมีการยืนสงบนิ่งเพื่อไว้อาลัยให้แก่การ
               สูญเสียจากสงครามทั่วโลกและนักกิจกรรม
               ชาวไทยที่ยังอยู่ในเรือนจำ </p>
           </div>
           <div>
             <img class="w-screen" src="src/pride3.jpg"/>
-            <p>นอกจากนี้ยังมีการร่วมผลักดันให้การค้า
+            <p class="py-4 px-5">นอกจากนี้ยังมีการร่วมผลักดันให้การค้า
               ประเวณีถูกกฎหมาย และร่าง พ.ร.บ.คู่สมรส ที่จะเข้าสู่การพิจารณาในสภาในวันที่ 8 มิถุนายนด้วย</p>
           </div>
           <div>
@@ -499,17 +503,37 @@
       </div>
       <!-- ผ่านวาระแรก -->
       <div data-scroll-section data-scroll class="bg-wgrey6 py-40">
-        <div style="height: 500px;" class="relative">
-          <img class="absolute" src="src/green-paper2.png"/>
-          <div>
-          <h2 class="absolute font-bold text-white text-4xl">สมรสเท่าเทียม</h2>
-          <h1 class="absolute font-bold text-white text-8xl">ผ่าน</h1>
-          <h2 class="absolute font-bold text-white text-4xl">วาระแรก</h2>
-          <h3 class="absolute font-bold text-white text-2xl">15 มิ.ย. 65</h3>
+        <!-- greentearpaper -->
+        <div style="height: 520px;" class="relative">
+          <div data-scroll data-scroll-direction="vertical" data-scroll-speed="3" class="w-full h-full " style="background-image: url('src/green-paper2.png')">
+            <div class="pt-28">
+              <h2 class="text-center font-bold text-white text-4xl">สมรสเท่าเทียม</h2>
+              <h1 class="pt-16 pl-10 text-center font-bold text-white text-9xl inline-block">
+                <span
+                class=" inline-block"
+                data-scroll
+                data-scroll-speed="3"
+                data-scroll-delay="0.2"
+                >ผ่</span>
+               <span
+                class=" inline-block"
+                data-scroll
+                data-scroll-speed="3"
+                data-scroll-delay="0.14"
+                >า</span>
+              <span
+                class=" inline-block"
+                data-scroll
+                data-scroll-speed="3"
+                data-scroll-delay="0.12"
+                >น</span>
+        </h1>
+              <h2 class="text-center font-bold text-white text-4xl">วาระแรก</h2>
+              <h3 class="pt-4 text-center font-bold text-white text-2xl">15 มิ.ย. 65</h3>
+            </div>
+           </div>
         </div>
-        </div>
-        <!-- green paper -->
-        <div class="pt-24 ">
+        <div class="pt-28 ">
           <div class="pl-16 flex text-2xl ">
             <p class="pr-16">จำนวนผู้ลงมติ</p>
             <p>406</p>
@@ -547,14 +571,71 @@
         </div>
       </div> 
       <!-- ยังไม่จบ -->
-      <div data-scroll-section data-scroll class="bg-wgrey6 pb-96">
-      <h2 class="text-center text-3xl font-bold">การเดินทางของเรา</h2>
-      <h1 class="text-7xl font-bold ">ยังไม่จบ</h1>
-      <h1 class="text-7xl font-bold ">ยังไม่จบ</h1>
-      <h1 class="text-7xl font-bold ">ยังไม่จบ</h1>
-      <h1 class="text-7xl font-bold ">ยังไม่จบ</h1>
-      <p class="text-center">สามารถลงชื่อสนับสนุนและติดตามสมรสเท่าเทียมได้ที่</p>
-      <a href="https://www.support1448.org/">คลิกที่นี่</a>
+      <div data-scroll-section data-scroll class="bg-wgrey6 pt-4 pb-96">
+      <h2 class="text-center text-3xl font-bold pb-5">การเดินทางของเรา</h2>
+      <!-- looptext1 -->
+      <div class="relative flex overflow-x-hidden">
+        <div class="flex py-2 space-x-6 text-7xl font-bold marquee whitespace-nowrap">
+         <div class="w-60 h-20 text-wred">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-worange">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-wyellow">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-wgreen">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-wblue">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-wpurple">ยังไม่จบ</div>
+        </div>
+        <div class="absolute top-0 flex py-2 space-x-6 text-7xl font-bold marquee2">
+        <div class="w-60 h-20 text-wred">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-worange">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-wyellow">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-wgreen">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-wblue">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-wpurple">ยังไม่จบ</div>
+        </div>
+      </div>
+      <!-- looptext2 -->
+      <div class="relative flex overflow-x-hidden">
+        <div class="flex py-2 space-x-6 text-7xl font-bold marquee3 whitespace-nowrap">
+         <div class="w-60 h-20 text-wred">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-worange">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-wyellow">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-wgreen">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-wblue">ยังไม่จบ</div>
+         <div class="w-60 h-20 text-wpurple">ยังไม่จบ</div>
+        </div>
+        <div class="absolute top-0 flex py-2 space-x-6 text-7xl font-bold marquee4">
+        <div class="w-60 h-20 text-wred">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-worange">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-wyellow">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-wgreen">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-wblue">ยังไม่จบ</div>
+        <div class="w-60 h-20 text-wpurple">ยังไม่จบ</div>
+        </div>
+      </div>
+      <!-- looptext3 -->
+      <div class="relative flex overflow-x-hidden">
+        <div class="flex py-2 space-x-6 text-7xl font-bold marquee5 whitespace-nowrap">
+         <div class="w-60 h-20 p-2 bg-wpurple text-worange">ยังไม่จบ</div>
+         <div class="w-60 h-20 p-2 bg-worange text-wblue">ยังไม่จบ</div>
+         <div class="w-60 h-20 p-2 bg-wgreen text-wpurple">ยังไม่จบ</div>
+         <div class="w-60 h-20 p-2 bg-wyellow text-wred">ยังไม่จบ</div>
+         <div class="w-60 h-20 p-2 bg-wblue text-wgreen">ยังไม่จบ</div>
+         <div class="w-60 h-20 p-2 bg-wred text-wyellow">ยังไม่จบ</div>
+        </div>
+        <div class="absolute top-0 flex py-2 space-x-6 text-7xl font-bold marquee6">
+        <div class="w-60 h-20 px-4 py-2 bg-wpurple text-worange">ยังไม่จบ</div>
+        <div class="w-60 h-20 px-4 py-2 bg-worange text-wblue">ยังไม่จบ</div>
+        <div class="w-60 h-20 px-4 py-2 bg-wgreen text-wpurple">ยังไม่จบ</div>
+        <div class="w-60 h-20 px-4 py-2 bg-wyellow text-wred">ยังไม่จบ</div>
+        <div class="w-60 h-20 px-4 py-2 bg-wblue text-wgreen">ยังไม่จบ</div>
+        <div class="w-60 h-20 px-4 py-2 bg-red text-wyellow">ยังไม่จบ</div>
+        </div>
+      </div>
+      <p class="text-center pb-12">สามารถลงชื่อสนับสนุนและติดตามสมรสเท่าเทียมได้ที่</p>
+      <div class="flex justify-center">
+        <a class="px-12 py-4 bg-wgrey2 rounded-lg text-lg text-center text-white" href="https://www.support1448.org/">คลิกที่นี่</a>
+      </div>
+       
+      
       <img class="bottom-0 mix-blend-color-burn" src="src/tearpaper.png"/>
       
       </div>
@@ -562,6 +643,16 @@
     
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
     <script>
+      //loop
+      let count = 64;
+      let index = 1;
+      while (index <= count) {
+        document.getElementById('human-loop').innerHTML += `<img class="w-8 h-8 object-center object-contain" style="transition-delay:${100*index}ms" src="src/person.png">`;
+          console.log(index);
+          index++;
+      }
+
+      // locomotive
       const scroll = new LocomotiveScroll({
         el: document.querySelector("[data-scroll-container]"),
         smooth: true,

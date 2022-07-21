@@ -27,14 +27,53 @@ h1,h2,h3,h4,p,body {
   .path-7 {
     animation: dash 3s forwards;
   }
-  @keyframes dash {
-    0% {
-      stroke-dashoffset: 1500;
-    }
-    100% {
-      stroke-dashoffset:0;
-    }
+
+  #human-loop  img{
+    opacity:0;
+    transform: translateY(50px);
   }
+
+  .is-inview#human-loop  img{
+    opacity:1;
+    transform: translateY(0px);
+    transition:all 1s ease-in-out;
+  }
+
+  .marquee {
+    animation: marquee 10s linear infinite;
+  }
+  .marquee2 {
+    animation: marquee2 10s linear infinite;
+  }
+  .marquee3 {
+    animation: marquee 5s linear infinite;
+  }
+  .marquee4 {
+    animation: marquee2 5s linear infinite;
+  }
+  .marquee5 {
+    animation: marquee 15s linear infinite;
+  }
+  .marquee6 {
+    animation: marquee2 15s linear infinite;
+  }
+
+
+  @keyframes 
+  dash {
+    0% { stroke-dashoffset: 1500; }
+    100% { stroke-dashoffset:0; }
+  }
+  @keyframes
+  marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+  @keyframes
+  marquee2 {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(0%); }
+    }
  
 body{
     transition:all 0.5s linear;
