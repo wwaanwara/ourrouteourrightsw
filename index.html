@@ -34,6 +34,9 @@
               wgrey6: "#F2F2F2",
             },
           },
+          maxWidth: {
+          'w375': '375px',
+          }
         },
       };
     </script>
@@ -46,12 +49,12 @@
     </style>
   </head>
   <body>
-    <div data-scroll-container>
+    <div data-scroll-container class="max-w-w375">
       <!-- title -->
       <div
         data-scroll-section
         data-scroll-call="title"
-        class="bg-black h-screen text-white px-5 flex items-center relative overflow-hidden"
+        class="bg-black h-screen w-screen text-white px-5 flex items-center relative overflow-hidden"
       >
         <!-- title -->
         <div data-scroll data-scroll-direction="vertical"
@@ -152,7 +155,7 @@
           </svg></section>
       </div>
       <!-- 2552 -->
-      <div  data-scroll-section data-scroll-call="fivetwo" data-scroll-id="fivetwo" class="">
+      <div  data-scroll-section data-scroll-call="fivetwo" data-scroll-repeat data-scroll-id="fivetwo" class="">
         <!-- rainbow3 -->
         <section data-scroll class="pb-6 pl-20">
           <svg id="rainbow"
@@ -390,7 +393,7 @@
           </svg>
         </div>
         <div  class="relative h-[100vh] pt-28 px-5">
-          <div class="w-full h-full" style="background-image: url('src/sticker.jpg');">
+          <div class="w-full h-full bg-no-repeat" style="background-image: url('src/sticker.jpg');">
              <h2 class="text-center font-bold text-xl pt-6 px-10">ลงชื่อเสนอกฎหมาย<br>สมรสเท่าเทียม(ฉบับประชาชน)</h2>
              <div  class="w-full h-full pt-4 px-4 flex items-start justify-center">
                <div data-scroll data-scroll-repeat id="human-loop" class="grid grid-cols-8 gap-4">
@@ -420,7 +423,7 @@
       <div data-scroll-section data-scroll data-scroll-call="pride" class=" pb-40">
         <!-- redpaper -->
         <div >
-          <div data-scroll style="background-image:url('src/red-paper2.png') ; background-size: 100% 100%;" class="pb-20 pt-12 pr-20 pl-16 bg-center text-center w-fit bg-no-repeat">
+          <div data-scroll style="background-image:url('src/red-paper2.png') ; background-size: 100% 100%;" class="pb-20 pt-12 px-20 bg-center text-center w-fit bg-no-repeat">
           <h2 class="font-bold text-white text-3xl whitespace-nowrap inline">“ครั้งแรก”<br>ของกรุงเทพมหานคร</h2>
          </div> 
         </div>
@@ -458,7 +461,7 @@
          </div>
         <!-- red -->
          <div class="rotate-[-10deg] ">
-          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-4" style="background-size: 100% 100%;" class="py-2 px-28 bg-center w-fit bg-no-repeat">
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-4" style="background-size: 100% 100%;" class="py-2 px-28 bg-center bg-wred w-fit bg-no-repeat">
           <h2 class="font-bold text-white text-center text-4xl whitespace-nowrap inline">บางกอกนฤมิตไพรด์</h2>
          </div> 
          </div>
@@ -481,22 +484,22 @@
         </div> 
          <!-- pride card -->
         <div class="pt-44">
-          <div>
-            <img src="src/pride1.jpg"/>
+          <div data-scroll data-scroll-direction="vertical" data-scroll-speed="3">
+            <img class="w-screen" src="src/pride1.jpg"/>
             <p class="py-4 px-5">บรรยากาศภายในงานได้มีการจัดกิจกรรมเชิงสัญลักษณ์และการปราศรัยประเด็นเรียกร้องความหลากหลายทางเพศ</p>
           </div>
-          <div>
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="3">
             <img class="w-screen" src="src/pride2.jpg"/>
             <p class="py-4 px-5" >รวมทั้งมีการยืนสงบนิ่งเพื่อไว้อาลัยให้แก่การ
               สูญเสียจากสงครามทั่วโลกและนักกิจกรรม
               ชาวไทยที่ยังอยู่ในเรือนจำ </p>
           </div>
-          <div>
+          <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3">
             <img class="w-screen" src="src/pride3.jpg"/>
             <p class="py-4 px-5">นอกจากนี้ยังมีการร่วมผลักดันให้การค้า
               ประเวณีถูกกฎหมาย และร่าง พ.ร.บ.คู่สมรส ที่จะเข้าสู่การพิจารณาในสภาในวันที่ 8 มิถุนายนด้วย</p>
           </div>
-          <div>
+          <div data-scroll data-scroll-direction="vertical" data-scroll-speed="3">
             <img class="w-screen" src="src/pride4.jpg"/>
           </div>
         </div>
@@ -506,7 +509,7 @@
       <div data-scroll-section data-scroll class="bg-wgrey6 pb-40">
         <!-- greentearpaper -->
         <div style="height: 520px;" class="relative">
-          <div data-scroll data-scroll-direction="vertical" data-scroll-speed="3" class="w-full h-full " style="background-image: url('src/green-paper2.png')">
+          <div data-scroll data-scroll-direction="vertical" data-scroll-speed="3" class="w-full h-full bg-no-repeat bg-center " style="background-image: url('src/green-paper2.png')">
             <div class="pt-28">
               <h2 class="text-center font-bold text-white text-4xl">สมรสเท่าเทียม</h2>
               <h1 class="pt-16 pl-10 text-center font-bold text-white text-9xl inline-block">
@@ -541,9 +544,9 @@
           </div>
           <div class="flex pt-5">
         <div data-scroll style="background-size: 100% 100%;" class="py-10 px-12 bg-center bg-wgreen w-fit text-center bg-no-repeat">
-              <h2 data-scroll data-scroll-id=""class="font-bold text-white leading-normal text-3xl whitespace-nowrap inline">เห็นด้วย<br>210</h2>
+              <h2 id="agree" data-scroll data-scroll-id="agree" class="font-bold text-white leading-normal text-3xl whitespace-nowrap inline">เห็นด้วย<br>210</h2>
         </div>
-        <div data-scroll style="background-size: 100% 100%;" class="py-10 px-8 bg-center bg-wred w-fit text-center bg-no-repeat">
+        <div data-scroll data-scroll-id="disagree" style="background-size: 100% 100%;" class="py-10 px-8 bg-center bg-wred w-fit text-center bg-no-repeat">
           <h2 class="font-bold text-black leading-normal text-3xl whitespace-nowrap inline">ไม่เห็นด้วย<br>180</h2>
         </div>  
           </div>
@@ -573,9 +576,18 @@
       </div> 
       <!-- ยังไม่จบ -->
       <div data-scroll-section data-scroll class="bg-wgrey6 pt-4 pb-96">
-      <h2 class="text-center text-3xl font-bold pb-12">การเดินทางของเรา</h2>
-      <!-- looptext1 -->
-      <div class="relative flex overflow-x-hidden">
+        <!-- rainbow14 -->
+        <svg height="93" viewBox="0 0 375 93" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-screen">
+          <path d="M-45 90H3.30154C12.1381 90 19.3016 82.8366 19.3016 74V44C19.3016 35.1634 26.465 28 35.3016 28H315.55C324.386 28 331.55 35.1634 331.55 44V74C331.55 82.8366 338.713 90 347.55 90H419" stroke="#86007D" stroke-width="5" stroke-linecap="round"/>
+          <path d="M-39 85H9.30154C18.1381 85 25.3016 77.8366 25.3016 69V39C25.3016 30.1634 32.465 23 41.3016 23H321.55C330.386 23 337.55 30.1634 337.55 39V69C337.55 77.8366 344.713 85 353.55 85H425" stroke="#0000F9" stroke-width="5" stroke-linecap="round"/>
+          <path d="M-34 80H14.3015C23.1381 80 30.3016 72.8366 30.3016 64V34C30.3016 25.1634 37.465 18 46.3016 18H326.55C335.386 18 342.55 25.1634 342.55 34V64C342.55 72.8366 349.713 80 358.55 80H430" stroke="#008018" stroke-width="5" stroke-linecap="round"/>
+          <path d="M-28 75H20.3015C29.1381 75 36.3016 67.8366 36.3016 59V29C36.3016 20.1634 43.465 13 52.3016 13H332.55C341.386 13 348.55 20.1634 348.55 29V59C348.55 67.8366 355.713 75 364.55 75H436" stroke="#FFFF41" stroke-width="5" stroke-linecap="round"/>
+          <path d="M-23 70H25.3015C34.1381 70 41.3016 62.8366 41.3016 54V24C41.3016 15.1634 48.465 8 57.3016 8H337.55C346.386 8 353.55 15.1634 353.55 24V54C353.55 62.8366 360.713 70 369.55 70H441" stroke="#FFA52C" stroke-width="5" stroke-linecap="round"/>
+          <path d="M-17 65H31.3015C40.1381 65 47.3016 57.8366 47.3016 49V19C47.3016 10.1634 54.465 3 63.3016 3H343.55C352.386 3 359.55 10.1634 359.55 19V49C359.55 57.8366 366.713 65 375.55 65H447" stroke="#FF0018" stroke-width="5" stroke-linecap="round"/>
+          </svg>  
+        <h2 class="text-center text-4xl font-bold pb-12">การเดินทางของเรา</h2>
+        <!-- looptext1 -->
+        <div class="relative flex overflow-x-hidden">
         <div class="flex py-3 space-x-6 text-7xl font-bold marquee whitespace-nowrap">
          <div class="w-60 h-20 text-wred">ยังไม่จบ</div>
          <div class="w-60 h-20 text-worange">ยังไม่จบ</div>
@@ -592,9 +604,9 @@
         <div class="w-60 h-20 text-wred">ยังไม่จบ</div>
         <div class="w-60 h-20 text-worange">ยังไม่จบ</div>
         </div>
-      </div>
-      <!-- looptext2 -->
-      <div class="relative flex overflow-x-hidden">
+        </div>
+        <!-- looptext2 -->
+        <div class="relative flex overflow-x-hidden">
         <div class="flex py-3 space-x-6 text-7xl font-bold marquee3 whitespace-nowrap">
          <div class="w-60 h-20 text-wyellow">ยังไม่จบ</div>
          <div class="w-60 h-20 text-wgreen">ยังไม่จบ</div>
@@ -611,9 +623,9 @@
         <div class="w-60 h-20 text-wyellow">ยังไม่จบ</div>
         <div class="w-60 h-20 text-wgreen">ยังไม่จบ</div>
         </div>
-      </div>
-      <!-- looptext3 -->
-      <div class="relative flex overflow-x-hidden">
+        </div>
+        <!-- looptext3 -->
+        <div class="relative flex overflow-x-hidden">
         <div class="flex py-3 space-x-6 text-7xl font-bold marquee5 whitespace-nowrap">
          <div class="w-60 h-20 p-2 text-wpurple">ยังไม่จบ</div>
          <div class="w-60 h-20 p-2 text-wblue">ยังไม่จบ</div>
@@ -630,18 +642,15 @@
         <div class="w-60 h-20 px-4 py-2 text-wpurple">ยังไม่จบ</div>
         <div class="w-60 h-20 px-4 py-2 text-wblue">ยังไม่จบ</div>
         </div>
-      </div>
-      <p class="text-center pt-12 pb-4">สามารถลงชื่อสนับสนุนและติดตามสมรสเท่าเทียมได้ที่</p>
-      <div class="flex justify-center">
-        <a class="px-12 py-4 bg-wgrey2 rounded-lg text-lg text-center text-white hover:bg-sky-700" href="https://www.support1448.org/">คลิกที่นี่</a>
-      </div>
-       
-      
-      <img class="bottom-0 mix-blend-color-burn" src="src/tearpaper.png"/>
-      
+        </div>
+        <p class="text-center pt-12 pb-4">สามารถลงชื่อสนับสนุนและติดตามสมรสเท่าเทียมได้ที่</p>
+        <div class="flex justify-center">
+        <a class="px-12 py-4 bg-wgreen rounded-lg text-lg text-center text-white" href="https://www.support1448.org/">คลิกที่นี่</a>
+        </div>
+        <img class="bottom-0 w-screen mix-blend-color-burn" src="src/tearpaper.png"/>
       </div>
     </div>
-    
+  </body>  
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
     <script>
       //loop
@@ -728,7 +737,7 @@
       
         }
       });
-     
+      // รูปม็อบสมรสเท่าเทียม
       scroll.on('scroll', (args) => {
         // Get all current elements : args.currentElements
          if (typeof args.currentElements["marry1"] === "object") {
@@ -761,6 +770,20 @@
         let rotateDeg = map(progress, 0, 1, 0, -15)
         let marry4 =  document.getElementById("marry4")
         marry4.style.transform = `rotate(${rotateDeg}deg)`
+        }
+      });
+
+      scroll.on('scroll', (args) => {
+        // Get all current elements : args.currentElements
+        if (typeof args.currentElements["agree"] === "object") {
+          let progress = args.currentElements["agree"].progress;
+          // console.log(progress);
+          document.getElementById("agree").style.opacity = progress * 1.5;
+          document.getElementById("agree").style.fontSize = progress * 50 + 'px';
+        }else if (typeof args.currentElements["disagree"] === "object") {
+          let progress = args.currentElements["disagree"].progress;
+          // console.log(progress);
+          document.getElementById("disagree").style.opacity = progress * 2;
         }
       });
     </script>

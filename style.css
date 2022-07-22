@@ -40,22 +40,22 @@ h1,h2,h3,h4,p,body {
   }
 
   .marquee {
-    animation: marquee 10s linear infinite;
+    animation: marquee 9s linear infinite;
   }
   .marquee2 {
-    animation: marquee2 10s linear infinite;
+    animation: marquee2 9s linear infinite;
   }
   .marquee3 {
-    animation: marquee 5s linear infinite;
+    animation: marquee3 5s linear infinite;
   }
   .marquee4 {
-    animation: marquee2 5s linear infinite;
+    animation: marquee4 5s linear infinite;
   }
   .marquee5 {
-    animation: marquee 15s linear infinite;
+    animation: marquee 12s linear infinite;
   }
   .marquee6 {
-    animation: marquee2 15s linear infinite;
+    animation: marquee2 12s linear infinite;
   }
 
 
@@ -74,6 +74,16 @@ h1,h2,h3,h4,p,body {
       0% { transform: translateX(100%); }
       100% { transform: translateX(0%); }
     }
+    @keyframes
+    marquee3 {
+        0% { transform: translateX(0%); }
+        100% { transform: translateX(100%); }
+      }
+    @keyframes
+    marquee4 {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(0%); }
+      }  
  
 body{
     transition:all 0.5s linear;
