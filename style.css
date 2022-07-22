@@ -3,8 +3,8 @@ h1,h2,h3,h4,p,body {
 }
 
   .path-1,.path-2,.path-3,.path-4,.path-5,.path-6,.path-7 {
-    stroke-dasharray: 1500;
-    stroke-dashoffset: 1500;
+    stroke-dasharray: 1700;
+    stroke-dashoffset: 1700;
   }
  .path-1 {
     animation: dash 2s forwards;
@@ -61,7 +61,7 @@ h1,h2,h3,h4,p,body {
 
   @keyframes 
   dash {
-    0% { stroke-dashoffset: 1500; }
+    0% { stroke-dashoffset: 1700; }
     100% { stroke-dashoffset:0; }
   }
   @keyframes
