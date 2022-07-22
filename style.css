@@ -2,6 +2,13 @@ h1,h2,h3,h4,p,body {
      font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
+.frame{
+  max-width: 375px;
+  max-height: 667px;
+  justify-content: center;
+  overflow: hidden;
+}
+
   .path-1,.path-2,.path-3,.path-4,.path-5,.path-6,.path-7,.path-8,.rainbow5 {
     stroke-dasharray: 1700;
     stroke-dashoffset: 1700;
