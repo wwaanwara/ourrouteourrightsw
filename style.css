@@ -69,12 +69,6 @@ html{
   .path-7 {
     animation: dash-opacity 8s ease-out 3s forwards;
   }
-  .path-8 {
-  animation: dash-opacity 10s ease-out 3s forwards;
-  }
-  .rainbow5 {
-  animation: dash-opacity 8s ease-out 12s forwards;
-  }
   #human-loop  img{
     opacity:0;
     transform: translateY(50px);
@@ -83,7 +77,7 @@ html{
   .is-inview#human-loop  img{
     opacity:1;
     transform: translateY(0px);
-    transition:all 1s ease-in-out;
+    transition:all 1s ease-in;
   }
 
   .marquee {
